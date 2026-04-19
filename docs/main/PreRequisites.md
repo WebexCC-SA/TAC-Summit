@@ -63,5 +63,5 @@ Place test call to the test number +15206603108 to confirm that you Webex Phone 
 
 
 
-Place test call to the test number +15206603108 to confirm that you Webex Phone is configured to place calls. You will hear TTS response from the test flow. If you are planning to use your cellphone for testing you can also try to call the number. <span style="color: red;">(Caution: Test number is a US one, so additional charges may apply if you use your personal device).</span>.
+Place test call to the test number +15206603108 to confirm that you Webex Phone is configured to place calls. You will hear TTS response from the test flow. If you are planning to use your cellphone for testing you can also try to call the number.
 ![Profiles](../graphics/Lab1_AI_Agent/18.5.gif)
