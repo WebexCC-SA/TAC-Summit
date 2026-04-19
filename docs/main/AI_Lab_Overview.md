@@ -16,9 +16,10 @@ Remember, **customers will trust the AI Agent only when they truly believe it ca
 
 1. A new call enters the voice flow. </br>
 2. The AI agent will suggest flowers that suit the occasion.</br>
-3. Customers will also be able to design their own bouquets from single flowers.</br>
+3. The Customers will also be able to design their own bouquets from single flowers.</br>
 4. AI Agent will generate the order details and total price based on the information in knowledge base.</br>
-5. AI Agent will send the information about the order to the third party system. </br>
-6. Customer will receive SMS confirmation with the order details. </br>
+5. The AI Agent will send the information about the order to the third party system using APIs. </br>
+6. The Customer will receive SMS confirmation with the order details. </br>
 7. The customer can always be transferred to a live agent from the appropriate department, along with the details of the conversation between the AI agent and the caller.</br>
-8. The customer can be transferred to another Webex AI Agent for wholesale orders.</br>
+7. The AI agent can use external MCP server to fullfil the customer's requests. </br>
+8. The AI agent can utilize A2A protocol to communicate with an external AI Agent.</br>
