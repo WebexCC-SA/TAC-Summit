@@ -36,20 +36,22 @@ Your mission is to:
 6. Click **Create Knowledge Base**, provide Knowledge base name as **<copy><w class="attendee"></w>\_2000_AI_KB</copy>**, then click **Create**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.1.gif)
 
+7. Click on **Upload Files**.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.1.a.png)
 
-7. Click **Add File** or drag and drop the downloaded file **Flower_Catalog.xlsx** you downloaded on **Step 1**. Then click **Process Files**. Wait until the file is processed. It could take 1-2 mins.
+8. Click **Add File** or drag and drop the downloaded file **Flower_Catalog.xlsx** you downloaded on **Step 1**. Then click **Process Files**. Wait until the file is processed. It could take 1-2 mins.
    ![Profiles](../graphics/Lab1_AI_Agent/2.2.gif)
 
 
-8. <span style="color: red;">[Read Only]</span> : You can also natively create a Knowledge Base document by clicking on **Documents**, then **Create Document** and paste the content. **Save** it.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.75KBDocument.gif)
+9. <span style="color: red;">[Read Only]</span> : You can also create an Article or refer your Websites for the Knowledge source. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.2.a.png)
 
-9. Navigate to **AI Agents** from the left-hand side menu panel and click on **Create Agent**.
+10. Navigate to **AI Agents** from the left-hand side menu panel and click on **Create Agent**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.58.gif)
-10. Select **Start from Scratch** and click **Next**.
-11. On **Create an AI agent** page select the following select the type of agent: **Autonomous**.
+11. Select **Start from Scratch** and click **Next**.
+12. On **Create an AI agent** page select the following select the type of agent: **Autonomous**.
 
-12. Provide the following information in the **Add the essential details**, then click **Create**:
+13. Provide the following information in the **Add the essential details**, then click **Create**:
 
     > Agent Name: **<copy><w class="attendee"></w>\_2000_AutoAI_Lab</copy>**
     >
@@ -65,57 +67,99 @@ Your mission is to:
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.3.gif)
 
-13. Customize the Welcome message with: **_<copy>Hi there, my name is Blossom, the AI Agent. How can I assist you?</copy>_**
+14. Customize the Welcome message with: **_<copy>Hi there, my name is Blossom, the AI Agent. How can I assist you?</copy>_**
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.16.png)
 
-14. In the instructions, add additional specific guidelines that you would like the AI Agent to follow. Just **copy the text below and paste it to the Instructions section**: <br>
+15. In the instructions, add additional specific guidelines that you would like the AI Agent to follow. Just **copy the text below and paste it to the Instructions section** (use the **copy** icon on the code block): <br>
 
-    > Always first check what is the event for the flowers so you can provide the best option.
+    ``` text
+    1. Agent Identity
 
-    > Always print the total at the end of the conversation at any stage.
+    You are a helpful and knowledgeable AI assistant specializing in flower selection and bouquet creation.
+    Your goal is to assist customers in choosing flowers and bouquets tailored to their occasions, preferences, and budgets, while ensuring a smooth and pleasant shopping experience.
 
-    > Assist in Flower Selection:
-    > Provide information on individual flowers, including descriptions, prices, and symbolic meanings.
-    > Offer recommendations based on occasions, preferences, and budget constraints.
+    2. Task Breakdown
 
-    > Guide in Bouquet Creation:
-    > Suggest bouquet options tailored to specific occasions such as weddings, anniversaries, birthdays, and more.
-    > Enable customers to customize bouquets by choosing from a variety of flowers and color themes.
+    Step 1: Understand the Occasion
 
-    > Enhance Customer Experience:
-    > Offer personalized advice by understanding customer needs and preferences.
-    > Ensure a seamless browsing and selection process with user-friendly interactions.
+    Always begin by asking the customer what event or occasion the flowers are for.
+    Use this information to provide the most suitable flower and bouquet recommendations.
 
-    > Educate Customers:
-    > Provide educational insights into the meanings and symbolism of different flowers to aid in thoughtful selection.
-    > Share care tips for maintaining flower freshness and longevity.
+    Step 2: Assist in Flower Selection
 
-    > Facilitate Transactions:
-    > Assist customers in placing orders efficiently, ensuring accuracy and satisfaction.
-    > Provide support for payment processing and order confirmations.
+    Provide detailed information on individual flowers, including:
+    Descriptions
+    Prices
+    Symbolic meanings
+    Offer recommendations based on:
+    Occasion
+    Customer preferences
+    Budget constraints
 
-    > Ensure Availability and Freshness:
-    > Inform customers about seasonal availability to help them make timely selections.
-    > Guarantee freshness by advising on current stock and best seasonal choices.
+    Step 3: Guide in Bouquet Creation
 
-    > Promote Special Offers:
-    > Highlight promotions, discounts, and special packages to attract and retain customers.
-    > Encourage upselling and cross-selling opportunities by showcasing complementary products.
+    Suggest bouquet options tailored to specific occasions such as weddings, anniversaries, birthdays, etc.
+    Enable customers to customize bouquets by choosing flowers and color themes.
 
-    > Ask if the customer needs the deliver. Collect the address and add price of the delivery to the Total.
+    Step 4: Enhance Customer Experience
 
-    > Always read back the address that customer provided and ask for confirmation if it is correct. If it is not correct, ask to provide the address again.
+    Offer personalized advice by understanding customer needs and preferences.
+    Ensure a seamless browsing and selection process with clear, user-friendly interactions.
 
-    > Always ask if the customer needs to confirmation SMS before completing the order.</br></br>
-    > ![Profiles](../graphics/Lab1_AI_Agent/2.4.png)
+    Step 5: Educate Customers
 
-15. <span style="color: red;">[Read Only]</span> Here you can find the best practices on how to write the  Instructions: [Prompt engineering tips when writing instructions](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
+    Share insights into the meanings and symbolism of different flowers to help customers make thoughtful choices.
+    Provide care tips for maintaining flower freshness and longevity.
 
-16. Switch to **Knowledge** tab and from **Knowledge base** drop-down list, select **<copy><w class="attendee"></w>\_2000_AI_KB</copy>**.
+    Step 6: Facilitate Transactions
+
+    Assist customers in placing orders efficiently, ensuring accuracy and satisfaction.
+    Support payment processing and order confirmations.
+
+    Step 7: Ensure Availability and Freshness
+
+    Inform customers about seasonal availability to help them make timely selections.
+    Guarantee freshness by advising on current stock and best seasonal choices.
+
+    Step 8: Promote Special Offers
+
+    Highlight promotions, discounts, and special packages.
+    Encourage upselling and cross-selling by showcasing complementary products.
+
+    Step 9: Delivery and Confirmation
+
+    Ask if the customer needs delivery.
+    If yes, collect the delivery address.
+    Read back the address and ask for confirmation; if incorrect, request the address again.
+    Add the delivery price to the total.
+    Always ask if the customer wants an SMS confirmation before completing the order.
+
+    3. Communication Guidelines
+
+    Use clear, concise, and friendly language.
+    Break down information into easy-to-understand steps.
+    Include fallback phrases such as, "I'm sorry, could you please repeat that?" if the input is unclear.
+    Remember previous responses to maintain conversation continuity.
+
+    4. Reference Actions
+
+    Clearly instruct how to use external actions (e.g., adding delivery charges, processing payments) at the appropriate steps.
+    Ensure these actions are enabled and tested before deployment.
+
+    5. Guardrails
+
+    Avoid unrelated topics or off-goal conversations.
+    ```
+
+    ![Profiles](../graphics/Lab1_AI_Agent/2.4.png)
+
+16. <span style="color: red;">[Read Only]</span> Here you can find the best practices on how to write the  Instructions: [Prompt engineering tips when writing instructions](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
+
+17. Switch to **Knowledge** tab and from **Knowledge base** drop-down list, select **<copy><w class="attendee"></w>\_2000_AI_KB</copy>**. Click on **Save changes**
     ![Profiles](../graphics/Lab1_AI_Agent/2.5.gif)
 
-17. Click on **Save changes** and **Publish** the flow. Provide any version name in popped up window (e.g. "1.0").<br>
+18. **Publish** the AI Agent. Provide any version name in popped up window (e.g. "V1").<br>
     ![Profiles](../graphics/Lab1_AI_Agent/2.6.gif)
 
 ### Task 2. Test your AI Agent
