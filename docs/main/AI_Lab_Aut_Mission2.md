@@ -50,7 +50,7 @@ Configure Fulfilment action to collect order details from the customer and send 
 2. Select your AI agent with name **<copy><w class="attendee"></w>\_2000_AutoAI_Lab</copy>** that you created earlier and go to **Actions**. You will see one Action is already created by default for the Agent Handover. We will now create few more actions.
    ![Profiles](../graphics/Lab1_AI_Agent/2.17.gif)
 
-3. Click on create <b>New Action</b>. From the drop-down option, select **Fulfillment action**.
+3. Click on create <b>New Action</b>. From the drop-down option, select **Fulfillment**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.18.png)
 
 4. Configure it with name **_<copy>Create_New_Order</copy>_** and the Action description **_<copy>Collect order details, delivery address, total and response with the orderNumber once the order is completed.</copy>_**. In the Action score select <b>Slot filling and fulfillment</b>.
@@ -103,7 +103,7 @@ Configure Fulfilment action to collect order details from the customer and send 
 11. At this point you should see 6 created entities. Please double check that your configuration matches the screenshot below.
     ![Profiles](../graphics/Lab1_AI_Agent/2.61.png)
 
-12. In the **Webex Connect Builder Fulfillment**, select Service: **<copy><w class="attendee"></w>\_2000_Service_</copy>** and Flow: <b>Create_Order_Flowers</b>. Click on **Add**.
+12. In the **Fulfillment** section click on **Use Webex Connect Flow Builder** and select Service: **<copy><w class="attendee"></w>\_2000_Service_</copy>** and Flow: <b>Create_Order_Flowers</b>. Click on **Add**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.22.png)
 
 13. **Publish** the update of your AI Agent.
@@ -111,7 +111,7 @@ Configure Fulfilment action to collect order details from the customer and send 
 
 ### Task 3. Deliver collected order information to Webex Connect for fulfillment
 
-1.  Go to the Webex Connect, select the Service **<copy><w class="attendee"></w>\_2000_Service</copy>** and click on <b>Manage</b> the flow that you have created earlier.
+1.  Go to the Webex Connect, select the Service **<copy><w class="attendee"></w>\_2000_Service_</copy>** and click on <b>Manage</b> the flow that you have created earlier.
     ![Profiles](../graphics/Lab1_AI_Agent/2.24.gif)
 
 2. Click on **Edit** the flow on the right top. Then double click on the AI Agent event. In the Provide Sample JSON, replace the standard JSON body with the following: 
@@ -200,23 +200,24 @@ Configure Fulfilment action to collect order details from the customer and send 
 
 2. Double click on the SMS block and configure the following:
    > Destination: **<copy>$(n2.aiAgent.phoneNumber)</copy>**<br>
-   > From Number: **<copy>447507201958</copy>**<br>
+   > From Number: **<copy>12066478712</copy>**<br>
    > Message Type: **Text**<br>
-   > <br>
-   > Message as below:<br>
-   > <br>
-   > <b>Here is your order details:<br>
-   > orderNumber: "$(n3.orderNumber)"<br>
-   >orderDetails: "$(n2.aiAgent.orderDetails)"<br>
-   > orderTotal: "$(n2.aiAgent.orderTotal)"<br>
-   >delivery: "$(n2.aiAgent.delivery)"<br>
-   > address: "$(n2.aiAgent.address)"<br>
-   >status: "$(n2.aiAgent.status)"<br>
-   > phoneNumber: "$(n2.aiAgent.phoneNumber)"<br></b>
    >
-   ![Profiles](../graphics/Lab1_AI_Agent/2.69.gif)
+   > For **Message**, copy the text below and paste it into the message field (use the **copy** icon on the code block):
 
-3. Save and click on **Make Live**.
+    ``` text
+    Here is your order details:
+    orderNumber: "$(n3.orderNumber)"
+    orderDetails: "$(n2.aiAgent.orderDetails)"
+    orderTotal: "$(n2.aiAgent.orderTotal)"
+    delivery: "$(n2.aiAgent.delivery)"
+    address: "$(n2.aiAgent.address)"
+    status: "$(n2.aiAgent.status)"
+    phoneNumber: "$(n2.aiAgent.phoneNumber)"
+    ```
+    ![Profiles](../graphics/Lab1_AI_Agent/2.69.gif)
+
+3. Save and click on **Make Live**. Wait until the flow becomes **Live**. Could take 1-3 mins. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.70.gif)
 
 ### Task 6. Test the order creating and details delivery over SMS
