@@ -83,3 +83,35 @@ In the previous Mission you was using Webex Connect flow to execute tha API call
 
 14. Connect **HTTP Request** node to **VirtuaAgentV2** node.
    ![Profiles](../graphics/Lab1_AI_Agent/19.16.gif)
+
+15. Click on **VirtualAgentV2** node, open **State Event** and configure the **Event Name** as **<copy>{{event_name}}</copy>**. In this case when the interaction returns to the AI agent it stays in the same session and AI agent continue the conversation accordingly. 
+   ![Profiles](../graphics/Lab1_AI_Agent/19.17.gif)
+
+16. Enable decryption in the flow so you can monitor your further test calls details. 
+   ![Profiles](../graphics/Lab1_AI_Agent/19.19.gif)
+
+
+17. **Validate** and **Publish** the flow with the **Latest** tag. 
+   ![Profiles](../graphics/Lab1_AI_Agent/19.18.gif)
+
+18. Place test call to your test number. Ask to order flowers, provide the requested information. Then trace the call in the voice flow. Click on HTTP Request node, decrypt the results to make sure you got 201 status result. 
+   ![Profiles](../graphics/Lab1_AI_Agent/19.20.gif)
+
+Task 3. Report the order details to Analyzer.
+
+1. Add Global Variable with name **Flower_order_details** to the flow. 
+   ![Profiles](../graphics/Lab1_AI_Agent/19.21.gif)
+
+2. Add **SetVariable** node and connect it between **HTTP Request** node and **VirtualAgentV2** nodes. 
+   ![Profiles](../graphics/Lab1_AI_Agent/19.22.gif)
+
+3. Click on **Http Request** node. On the right side scroll down to the Activity output variables, and copy the name that is related to Response Body. Then go to the **SetVariable** block and configure it with Variable **Flower_order_details** and the value that you copied from HTTP Request node inside of the {{}}. See the gif below. 
+   ![Profiles](../graphics/Lab1_AI_Agent/19.23.gif)
+
+4. Validate and publish the flow. 
+   ![Profiles](../graphics/Lab1_AI_Agent/19.24.gif)
+
+5. Place one more test call and order flowers. 
+
+6. Open the prebuilt [Analyzer Report](https://analyzer-v2.wxcc-us1.cisco.com/analyzer/view/visualization?tId=e56f00d4-98d8-4b62-a165-d05a41243d98&rId=303296){:target="_blank"} . You should see your call in the list. 
+   ![Profiles](../graphics/Lab1_AI_Agent/19.25.gif)
