@@ -14,9 +14,8 @@ Fulfillment Action is a task that an AI agent performs by understanding user int
 
 ## Mission overview
 
-Your mission is to:
 
-In the previous Mission you was using Webex Connect flow to execute tha API calls. For this Mission you will be using the Voice flow to execute the API call to create teh order. 
+In this Mission you will be using the Voice flow to execute the API call to create teh order in order to complete the AI Agent Fulfillment. 
 
 ![Profiles](../graphics/Lab1_AI_Agent/Fulfilment.png)
 
@@ -87,13 +86,11 @@ In the previous Mission you was using Webex Connect flow to execute tha API call
     ![Profiles](../graphics/Lab1_AI_Agent/2.61.png)
 
 
-### Task 2. Configure Create_New_Order action to use voice flow for fulfillment.
-
-1. In the AI Agent Studio, open **Create_New_Order** Action.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.1.gif)
-
-2. Scroll down and for the **Fulfillment** option select **Manage in the source flow (voice only). Click **Save**
+12. Scroll down and for the **Fulfillment** option select **Manage in the source flow (voice only). Click **Save**
    ![Profiles](../graphics/Lab1_AI_Agent/19.2.png)
+
+13. Save and Publish your AI Agent. 
+   ![Profiles](../graphics/Lab1_AI_Agent/19.33.gif)
 
 ### Task 3. Configure fulfillment logic in the Voice flow. 
 
