@@ -86,7 +86,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 11. <span style="color: red;">[Read Only]</span>. To parse the value in the flow, we need to determine the JSON path to retrieve the value. By using an open-source tool (e.g. [JSONPath Online Evaluator](https://jsonpath.com/){:target="\_blank"}), you can ensure you are using the correct JSON path to extract the value you need. In our case, the JSON path is **$.actions.Transfer_to_different_department[0].input.department** to retrieve the value for the department entity.
     ![Profiles](../graphics/Lab1_AI_Agent/11.16.png)
 
-12. Move from the Debug to **Design** field and click on **Edit** the flow. Create new flow **string** variable with name **<copy>department</copy>**.
+12. Move from the Debug to **Design** field. Create new flow **string** variable with name **<copy>department</copy>**.
     ![Profiles](../graphics/Lab1_AI_Agent/11.17.gif)
 
 13. Add **Parse** block to the flow and connect **Set Variable** block to the **Parse** block.
@@ -132,3 +132,4 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
     ![Profiles](../graphics/Lab1_AI_Agent/11.27.gif)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
+
