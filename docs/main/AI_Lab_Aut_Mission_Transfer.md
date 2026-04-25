@@ -31,14 +31,15 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 2. Open your AI agent with name **<copy><w class="attendee"></w>\_2000_AutoAI_Lab</copy>** and then click on **Actions**.
    ![Profiles](../graphics/Lab1_AI_Agent/11.2.gif)
 
-3. Select **New action** option. Then click on **Create new** and choose **Transfer** action.
-   ![Profiles](../graphics/Lab1_AI_Agent/11.3.png)
+3. Select **Add actions** option and create new **Transfer** action.
+   ![Profiles](../graphics/Lab1_AI_Agent/11.3.gif)
 
 4. Name the action as **<copy>Transfer_to_different_department</copy>**.<br/> In the **Transfer condition** field, paste **<copy>When the customer wants to transfer the call to HR or Billing department use this Action</copy>**.
-   ![Profiles](../graphics/Lab1_AI_Agent/11.4.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/11.4.gif)
 
 5. Click on add **New input entity**. Configure it with the following: <br>
    > Entity name: **<copy>department**</copy><br>
+   > Entity type: **String**<br>
    > Entity description: **<copy>Collect if the customer wants to transfer the call to HR or Billing Department**</copy><br>
    > Entity example: **<copy>HR**</copy><br>
    > Entity example: **<copy>Billing**</copy><br>
@@ -52,7 +53,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 
 ### Task 2. Configure voice flow to transfer customers to the HR or Billing queue
 
-1. In [Control Hub](https://admin.webex.com){:target="_blank"}, open your voice flow with the name \*\*<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>\*\*.
+1. Open your Voice flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**.
    ![Profiles](../graphics/Lab1_AI_Agent/11.7.gif)
 
 2. Click on **Edit** to edit the flow.
