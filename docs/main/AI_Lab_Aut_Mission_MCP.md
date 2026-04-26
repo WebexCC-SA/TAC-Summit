@@ -3,7 +3,7 @@
 icon: material/medal
 ---
 
-# (Optional) Mission 7: Configure Action with MCP
+# Mission 7: Configure Action with MCP
 
 **<details><summary>What is MCP? <span style="color: orange;"></span></summary>**
 
@@ -13,9 +13,17 @@ MCP, or Model Context Protocol, is a standardized framework designed to facilita
 
 ## Mission overview
 
-MCP Action is still in development and is currently available only for customer demos. In this mission, you will not be creating an MCP server or adding it to the tenant, as this functionality is not yet available to customers. The MCP server has already been created and added to the tenant for this lab. Your task is to create an action using this MCP server and test how it works.
+In Mission 3, you configured fulfillment by adding an HTTP request node to your voice flow to create an order. Imagine that this HTTP request could be preconfigured on a server, and you simply need to connect your AI agent to that server to utilize it.</br>
+</br>
+Using an MCP (Model Context Protocol) server is a highly practical approach. If you manage multiple agents and need to configure various fulfillment options for them, you no longer need to rebuild the same logic repeatedly within your flows. Instead, you can simply connect an MCP server and select the specific tool you need. You will love it!</br>
 
-For this mission, the MCP server was created to search external database for Flower Store locations. Your mission is to create a new action with this MCP server and test the results.<br>
+For this mission, the MCP server was created with two tools:</br>
+1) Check Flower Store Locations. </br>
+2) Check the order status by sending API call with the order ID to the MockAPI repository. </br>
+
+This MCP Sever repository you can find on github below. In the **READMe.md** file you will be able to fine instructions on how ot deploy it on AWS. You can use it as the example for implementing the MCP server for you production tenant.</br>
+https://github.com/mdanylch/store_address_2000
+
 ![Profiles](../graphics/Lab1_AI_Agent/MCPAction.png)
 
 ---

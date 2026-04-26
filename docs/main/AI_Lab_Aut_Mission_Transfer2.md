@@ -61,13 +61,11 @@ For this mission, the proctor has created Webex AI Agent named **Flower_Wholesal
 
 ### Task 3. Test Webex AI Agent transfer to Webex AI Agent
 
-Place a call to the number associated with your Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>** and ask to speak with the Wholesale department. You will be connected to an AI agent who can assist you with ordering flowers if you need to purchase at least one box (each box contains 100 flowers). In this case, the price will be different. Below, you can find the screenshot of the knowledge base used by the Flower_WholeSale AI Agent.
+Place a call to the number associated with your Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>** and ask to speak with the **Wholesale** department. You will be connected to an AI agent who can assist you with ordering flowers if you need to purchase at least one box (each box contains 100 flowers). In this case, the price will be different. Below, you can find the screenshot of the knowledge base used by the Flower_WholeSale AI Agent.
 ![Profiles](../graphics/Lab1_AI_Agent/14.12.png)
 
 Or you can review the full configuration of the **Flower_Wholesale** AI Agent in the AI Agent Studio.
 ![Profiles](../graphics/Lab1_AI_Agent/14.14.png)
 
-For your reference, please see the chat discussion with the Flower_WholeSale AI Agent. This will help you have a similar dialogue during your test call.
-![Profiles](../graphics/Lab1_AI_Agent/14.13.gif)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
