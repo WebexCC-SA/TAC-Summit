@@ -17,12 +17,15 @@ In Mission 3, you configured fulfillment by adding an HTTP request node to your 
 </br>
 Using an MCP (Model Context Protocol) server is a highly practical approach. If you manage multiple agents and need to configure various fulfillment options for them, you no longer need to rebuild the same logic repeatedly within your flows. Instead, you can simply connect an MCP server and select the specific tool you need. You will love it!</br>
 
-For this mission, the MCP server was created with two tools:</br>
+For this mission, the MCP server was created and deployed on AWS with two tools:</br>
 1) Check Flower Store Locations. </br>
 2) Check the order status by sending API call with the order ID to the MockAPI repository. </br>
 
-This MCP Sever repository you can find on github below. In the **READMe.md** file you will be able to fine instructions on how ot deploy it on AWS. You can use it as the example for implementing the MCP server for you production tenant.</br>
-https://github.com/mdanylch/store_address_2000
+This MCP Sever repository you can find on github below. In the **READMe.md** file you will be able to fine instructions on how ot deploy it on AWS. You can use it as the example for implementing the MCP server for you production tenant, but for this lab it is already deployed so the link below is just the reference of the source code. </br>
+</br>
+**<copy>https://github.com/mdanylch/store_address_2000</copy>**
+
+**In this mission you will work on adding this External MCP server to Webex cloud and plug it in with you AI Agent.**
 
 ![Profiles](../graphics/Lab1_AI_Agent/MCPAction.png)
 
@@ -32,24 +35,42 @@ https://github.com/mdanylch/store_address_2000
 
 ### Task 1. Create MCP Action
 
-1. Open up your AI Agent **<copy><w class="attendee"></w>\_2000_AutoAI_Lab</copy>** and start creating the new **Action**.
-   ![Profiles](../graphics/Lab1_AI_Agent/15.1.gif)
+1. Open [Webex Developer Portal](https://developer.webex.com/){:target="_blank"} .
 
-2. From the list, select **get_store_locations** MCP option.
-   ![Profiles](../graphics/Lab1_AI_Agent/15.2.png)
+2. Click on **Login**. Login with you admin credentials.
+![Profiles](../graphics/Lab1_AI_Agent/15.1.png)
 
-3. You can see that another Action was created, and some of the configurations, such as Description and Entity, were transferred from the MCP server. This new Action essentially adds functionality to the AI Agent, enabling it to provide customers with store locations. These location details are stored in a third-party database and are accessed through the MCP integration.
-   ![Profiles](../graphics/Lab1_AI_Agent/15.3.png)
+3. Under the Profile, click on **My Webex App**
+![Profiles](../graphics/Lab1_AI_Agent/15.2.png)
 
-4. **Publish** the changes.
-   ![Profiles](../graphics/Lab1_AI_Agent/15.4.png)
+4. Click on **Create a New App**.
+![Profiles](../graphics/Lab1_AI_Agent/15.3.png)
 
-### Task 2. Test MCP Action
+5. On the next page, select **Create an Agentic App**.
+![Profiles](../graphics/Lab1_AI_Agent/15.4.png)
 
-1. You can test the functionality using the chat **Preview** option. Ask the AI agent **<copy>What are the store locations?</copy>**. The information that the AI agent will respond with will be retrieved from the external database over the MCP.
-   ![Profiles](../graphics/Lab1_AI_Agent/15.5.png)
+6. Name you app as **<copy><w class="attendee"></w>\_MCP_Server</copy>**
+![Profiles](../graphics/Lab1_AI_Agent/15.5.png)
 
-2. Open up the interaction transcripts in the **Session** tab to confirm that result came from the MCP tool.
-   ![Profiles](../graphics/Lab1_AI_Agent/15.6.gif)
+7. For **Agent App Description**, paste the text below (use the **copy** icon on the code block):
+
+    ``` text
+    This MCP server is used for the following:
+
+    1) Check the flower store locations
+    2) Check the order status based on the order ID.
+    ```
+![Profiles](../graphics/Lab1_AI_Agent/15.6.png)
+
+8. Select
+
+
+
+
+
+
+
+
+
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
