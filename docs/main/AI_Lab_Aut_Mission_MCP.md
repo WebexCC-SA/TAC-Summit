@@ -33,7 +33,7 @@ This MCP Sever repository you can find on github below. In the **READMe.md** fil
 
 ## Build
 
-### Task 1. Create MCP Action
+### Task 1. Create Agentic App in Webex Developer Portal. 
 
 1. Open [Webex Developer Portal](https://developer.webex.com/){:target="_blank"} .
 
@@ -62,7 +62,11 @@ This MCP Sever repository you can find on github below. In the **READMe.md** fil
     ```
 ![Profiles](../graphics/Lab1_AI_Agent/15.6.png)
 
-8. Select
+8. Select an available Agentic App Icon. Click 2 times on an Icon. 
+![Profiles](../graphics/Lab1_AI_Agent/15.7.gif)
+
+9. For the Agentic App URL enter **<copy>https://y4drgmvgpb.us-east-1.awsapprunner.com/mcp</copy>** and for Agentic App auth type select **Custom Headers**. Finally click on **Add Agentic App**.
+![Profiles](../graphics/Lab1_AI_Agent/15.7.gif)
 
 
 
