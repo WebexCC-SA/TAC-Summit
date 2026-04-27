@@ -66,15 +66,36 @@ This MCP Sever repository you can find on github below. In the **READMe.md** fil
 ![Profiles](../graphics/Lab1_AI_Agent/15.7.gif)
 
 9. For the Agentic App URL enter **<copy>https://y4drgmvgpb.us-east-1.awsapprunner.com/mcp</copy>** and for Agentic App auth type select **Custom Headers**. Finally click on **Add Agentic App**.
-![Profiles](../graphics/Lab1_AI_Agent/15.7.gif)
+![Profiles](../graphics/Lab1_AI_Agent/15.8.png)
 
 
+### Task 2. Enable the Agentic App in Control Hub.
 
+1. Go to Control Hub and open **Apps**, then click on **Agentic Apps. 
+![Profiles](../graphics/Lab1_AI_Agent/15.9.png)
 
+2. In the Apps find your Server name that assosiated to your id **<copy><w class="attendee"></w>\_MCP_Server</copy>** and open it. 
 
+3. Make it **Allowed for all users** and enable the **Authorize automatic server data updates**. Click **Save**.
+![Profiles](../graphics/Lab1_AI_Agent/15.10.gif)
 
+4. Click on **Authentication**. Configure the custom header with **Key 1**: **<copy>MCP_REQUEST_HEADERS</copy>** and the **Value** **<copy>4f9a2b7e1d8c6b3a0f92e4d5c6b8a1f7</copy>**. Then click on **Save**.
+![Profiles](../graphics/Lab1_AI_Agent/15.11.png)
 
+5. Click on **Tools** and Allow **get_store_locations** and **check_order_status** tools and **Allow signature change**. Click **Save**.
+![Profiles](../graphics/Lab1_AI_Agent/15.12.png)
 
+### Task 3. Configure the MCP Server tools with your AI agent. 
 
+1. Open up your AI Agent and go to **Actions**, click on **Add action**, click on **Select available**.
+![Profiles](../graphics/Lab1_AI_Agent/15.13.png)
+
+2. Add the tools that associated to your Agentic App name, and click on **Add**.
+![Profiles](../graphics/Lab1_AI_Agent/15.14.png)
+
+3. **Publish** the changes. 
+![Profiles](../graphics/Lab1_AI_Agent/15.15.png)
+
+4. Place 2 test calls. On the first call ask for the store location, and second call ask to trace the order that you have created earlier based on the order ID. 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
