@@ -27,10 +27,10 @@ Imagine an unfortunate situation where a customer is ordering flowers over the p
 
 ### Task 1. Create A2A Action
 
-1. Open up your AI Agent **<copy><w class="attendee"></w>\_2000_AutoAI_Lab</copy>** and start creating the new **Action**.
-   ![Profiles](../graphics/Lab1_AI_Agent/16.1.gif)
+1. Open up your AI Agent and go to **Actions**, click on **Add action**, click on **Select available**.
+![Profiles](../graphics/Lab1_AI_Agent/15.13.png)
 
-2. From the list, select **medical-triage-agent** A2A option.
+2. From the list, select **medical-triage-agent** A2A option. Click on **Add**.
    ![Profiles](../graphics/Lab1_AI_Agent/16.2.png)
 
 3. You can see that another Action was created, and some of the configurations, such as Description and Entity, were transferred from the A2A integration. This new Action essentially adds functionality to the AI Agent, enabling it to provide customers with health symptom analysis and suggest appropriate actions.
@@ -41,10 +41,10 @@ Imagine an unfortunate situation where a customer is ordering flowers over the p
 
 ### Task 2. Test A2A Action
 
-1. You can test the functionality using the chat **Preview** option. Type to the AI Agent for example this: **<copy>Oh my God, I just got into a car crash and my head is bleeding. What should I do?</copy>**
+1. You can test the functionality using the chat **Chat Preview** option. Type to the AI Agent for example this: **<copy>Oh my God, I just got into a car crash and my head is bleeding. What should I do?</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/16.5.png)
 
 2. Open up the interaction transcripts in the **Session** to confirm that result came from the A2A integration.
-   ![Profiles](../graphics/Lab1_AI_Agent/16.6.gif)
+   ![Profiles](../graphics/Lab1_AI_Agent/16.6.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

@@ -98,4 +98,7 @@ This MCP Sever repository you can find on github below. In the **READMe.md** fil
 
 4. Place 2 test calls. On the first call ask for the store location, and second call ask to trace the order that you have created earlier based on the order ID. 
 
+5. You can also test the MCP connections from the **Chat or Voice Preview**.
+![Profiles](../graphics/Lab1_AI_Agent/15.16.png)
+
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
