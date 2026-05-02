@@ -71,13 +71,13 @@ In this mission you will work on adding this External MCP server to Webex cloud 
 
 ### Task 2. Enable the Agentic App in Control Hub.
 
-1. Go to Control Hub and open **Apps**, then click on **Agentic Apps. 
+1. Go to Control Hub and open **Apps**, then click on **Agentic Apps**. 
 ![Profiles](../graphics/Lab1_AI_Agent/15.9.png)
 
-2. In the Apps find your Server name that assosiated to your id **<copy><w class="attendee"></w>\_MCP_Server</copy>** and open it. 
+2. In the Apps find your Server name that associated to your id **<copy><w class="attendee"></w>\_MCP_Server</copy>** and open it. 
 
 3. Make it **Allowed for all users** and enable the **Authorize automatic server data updates**. Click **Save**.
-![Profiles](../graphics/Lab1_AI_Agent/15.10.gif)
+![Profiles](../graphics/Lab1_AI_Agent/15.10a.png)
 
 4. Click on **Authentication**. Configure the custom header with **Key 1**: **<copy>MCP_REQUEST_HEADERS</copy>** and the **Value** **<copy>4f9a2b7e1d8c6b3a0f92e4d5c6b8a1f7</copy>**. Then click on **Save**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.11.png)
@@ -96,7 +96,7 @@ In this mission you will work on adding this External MCP server to Webex cloud 
 3. **Publish** the changes. 
 ![Profiles](../graphics/Lab1_AI_Agent/15.15.png)
 
-4. Place 2 test calls. On the first call ask for the store location, and second call ask to trace the order that you have created earlier based on the order ID. 
+4. Place a test call. First ask for the store location, and then ask to trace the order that you have created earlier based on the order ID. 
 
 5. You can also test the MCP connections from the **Chat or Voice Preview**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.16.png)
