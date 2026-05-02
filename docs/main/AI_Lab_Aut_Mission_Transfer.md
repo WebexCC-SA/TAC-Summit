@@ -94,9 +94,9 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 
 14. Configure the **Parse** block with the following:<br>
 
-    > Input Variable: **MetaData_AI**<br>
-    > Content Type: **JSON**<br>
-    > Output Variable: **department**<br>
+    > Input Variable: **<copy>MetaData_AI</copy>**<br>
+    > Content Type: **<copy>JSON</copy>**<br>
+    > Output Variable: **<copy>department</copy>**<br>
     > Path Expression: **<copy>$.actions.Transfer_to_different_department[0].input.department</copy>**<br>
     > ![Profiles](../graphics/Lab1_AI_Agent/11.19.png)
 
@@ -105,7 +105,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 
 16. Configure the **Case** node with the following:<br>
 
-    > Variable: **department**<br>
+    > Variable: **<copy>department</copy>**<br>
     > LINK Description: **<copy>HR</copy>**<br>
     > LINK Description: **<copy>Billing</copy>**<br>
     > ![Profiles](../graphics/Lab1_AI_Agent/11.21.png)
@@ -113,7 +113,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 17. Bring two **Queue Contact** nodes to the flow.
     ![Profiles](../graphics/Lab1_AI_Agent/11.21.gif)
 
-18. Configure one **Queue node** with **2000_HR_Queue** and the other one with **2000_Billing_Queue**.
+18. Configure one **Queue node** with **<copy>2000_HR_Queue</copy>** and the other one with **<copy>2000_Billing_Queue</copy>**.
     ![Profiles](../graphics/Lab1_AI_Agent/11.22.gif)
 
 19. Connect **HR** output from **Case** node to the **HR Queue** node. Connect **HR Queue** node to the **Play Music** node.

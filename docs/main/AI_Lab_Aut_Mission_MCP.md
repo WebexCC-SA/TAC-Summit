@@ -25,7 +25,7 @@ This MCP Sever repository you can find on github below. In the **READMe.md** fil
 </br>
 **<copy>https://github.com/mdanylch/store_address_2000</copy>**
 
-**In this mission you will work on adding this External MCP server to Webex cloud and plug it in with you AI Agent.**
+In this mission you will work on adding this External MCP server to Webex cloud and plug it in with you AI Agent.
 
 ![Profiles](../graphics/Lab1_AI_Agent/MCPAction.png)
 

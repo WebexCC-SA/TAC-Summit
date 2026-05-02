@@ -159,7 +159,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 
 ### Task 4. Report the order details to Analyzer.
 
-1. Add Global Variable with name **Flower_order_details** to the flow. 
+1. Add Global Variable with name <copy>**Flower_order_details**</copy> to the flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.21.gif)
 
 2. Add **SetVariable** node and connect it between **HTTP Request** node and **VirtualAgentV2** nodes. 
@@ -199,12 +199,12 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 
 ### Task 6. (<span style="color: red;"><strong>Read Only</strong></span>). Understand SMS configuration.
 
-We have preconfigured the SMS flow in this lab and can be triggered using Webhook. To understand the configuration:
+We have preconfigured the SMS flow in this lab that can be triggered using Webhook. To understand the configuration:
 
 1. From **Control Hub**, go to **Contact Center** > **Overview** > **Webex Connect**.
        ![Profiles](../graphics/Lab1_AI_Agent/19.28.gif)
 
-2. Open up **Service 180_2000_Service_** > **Flows**. This is lab proctor Service where Webhook was configured to trigger the SMS. 
+2. Open up Service **<copy>180_2000_Service_</copy>** > **Flows**. This is lab proctor Service where Webhook was configured to trigger the SMS. 
        ![Profiles](../graphics/Lab1_AI_Agent/19.29.gif)
 
 3. Open the Flow **SMS_Webhook**. Please don't do any changes as everybody on this lab are using this flow. This Task is read only, no configurations are needed. 
