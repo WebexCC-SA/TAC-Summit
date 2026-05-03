@@ -20,13 +20,17 @@ Configure the fulfillment flow to track the status of existing orders. This func
 1. From the **Control Hub**, login to Webex Connect.
    ![Profiles](../graphics/Lab1_AI_Agent/9.16.png)
 
-2. Navigate to the Service that you have created in the previous lab - **<copy><w class="attendee"></w>\_Service</copy>**
-   ![Profiles](../graphics/Lab1_AI_Agent/9.17.gif)
 
-3. Create new flow. Name it **<copy>Track_Order_Flowers</copy>**.
+2. If it is not exist, create new Service with name: **<copy><w class="attendee"></w>\_Service</copy>**
+   ![Profiles](../graphics/Lab1_AI_Agent/9.17a.png)
+
+3. Click on **Flows**. 
+   ![Profiles](../graphics/Lab1_AI_Agent/9.17b.png)
+
+4. Create new flow. Name it **<copy>Track_Order_Flowers</copy>**.
    ![Profiles](../graphics/Lab1_AI_Agent/9.18.gif)
 
-4. Select **Integration** as **AI Agent**. **Parse** the values in the AI Agent block and click on **Save**. Then, click on **Make Live**. We will configure it in a later Task. For now, we just need to create the flow that will be used to complete the Action Configuration on the AI Studio side.
+5. Select **Integration** as **AI Agent**. **Parse** the values in the AI Agent block and click on **Save**. Then, click on **Make Live**. We will configure it in a later Task. For now, we just need to create the flow that will be used to complete the Action Configuration on the AI Studio side.
    ![Profiles](../graphics/Lab1_AI_Agent/9.19.gif)
 
 ### Task 2. Configure Action in Webex AI Agent Studio
@@ -40,10 +44,7 @@ Configure the fulfillment flow to track the status of existing orders. This func
 3. Select **Actions** and create new Action.
    ![Profiles](../graphics/Lab1_AI_Agent/9.22.gif)
 
-4. Click on **Integration** and select **Fulfillment action**.
-   ![Profiles](../graphics/Lab1_AI_Agent/SR.Fulfillment.png)
-
-5. Name the Action as **<copy>track_order</copy>**. <br>
+4. Name the Action as **<copy>track_order</copy>**. <br>
    > In the **Action description** provide the following: **<copy>If the customer want to track and order, collect the order number. With the order number execute the fulfillment and return the customer the order status. </copy>** <br>
    > Select the **Action scope** as **Slot filling and fulfillment.**
    ![Profiles](../graphics/Lab1_AI_Agent/9.23.png)
@@ -54,7 +55,7 @@ Configure the fulfillment flow to track the status of existing orders. This func
    > Entity description: **<copy>If the customer wants to track an order, collect the order number to this entity. </copy>** <br>
    > Entity example: **<copy>17</copy>** <br>
    > Required: **Yes** <br>
-   > Input field display name: **orderNumber**
+   > Input field display name: **<copy>orderNumber</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/9.24.png)
 
 7. For the fulfillment flow, select the Service **<copy><w class="attendee"></w>\_Service</copy>** and the flow **<copy>Track_Order_Flowers</copy>**, that you have created in the previous Tasks. Then click **Add**.

@@ -54,9 +54,7 @@ Your mission is to:
 2. Click on the **Event Flows**.
    ![Profiles](../graphics/Lab1_AI_Agent/3.13.gif)
 
-3. Drag and drop the **Start Media Stream** node and connect the **AgentAnswer** node to the **Start Media Stream** node.
-4. Drag and drop the **End Flow** node and connect the **Start Media Stream** to **End Flow**.
-5. **Validate** and **Publish** the flow.
+3. Drag and drop the **Start Media Stream** node and connect the **AgentAccepted** node to the **Start Media Stream** node. Drag and drop the **End Flow** node and connect the **Start Media Stream** to **End Flow**. **Validate** and **Publish** the flow.
    ![Profiles](../graphics/Lab1_AI_Agent/3.14.gif)
 
 ### Task 3. Test Real-Time Transcription feature in the Agent Desktop

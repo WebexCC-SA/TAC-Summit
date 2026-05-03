@@ -20,7 +20,7 @@ Create an Evaluation Form with requirements to ask the caller's name and the occ
 1. In your browser, open **New Incognito Window** (need a new Desktop window to login as Supervisor).
    ![Profiles](../graphics/Lab1_AI_Agent/12.1.gif)
 
-2. In this Incognito Window open up [https://alpha-desktop.wxcc-us1.cisco.com/](https://alpha-desktop.wxcc-us1.cisco.com/) .
+2. In this Incognito Window open up [https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/) .
    ![Profiles](../graphics/Lab1_AI_Agent/12.2.gif)
 
 3. Login with your Supervisor credentials. In the **"Set your interaction preferences"** pop-up window, select Role as **Supervisor** and Handle calls using **Desktop**. Allow using microphone.
