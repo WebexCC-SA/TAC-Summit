@@ -48,8 +48,8 @@ Your mission is to:
 
 ### Task 2. Configure Flow for real-time transcription
 
-1. Open up your voice flow **<copy>AutonomousAI*Flow_2000*<w class="attendee"></w></copy>** and click on **Edit**.
-   ![Profiles](../graphics/Lab1_AI_Agent/3.12.gif)
+1. Open up your voice flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** and click on **Edit**.
+   ![Profiles](../graphics/Lab1_AI_Agent/3.12.png)
 
 2. Click on the **Event Flows**.
    ![Profiles](../graphics/Lab1_AI_Agent/3.13.gif)

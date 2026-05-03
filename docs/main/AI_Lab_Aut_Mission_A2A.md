@@ -13,7 +13,7 @@ A2A, or Agent-to-Agent protocol, refers to a standardized method that enables di
 
 ## Mission overview
 
-A2A Action is still in development and is currently available only for customer demos. In this mission, you will not be creating a complete A2A integration for the Webex AI Agent and the Third Party AI Agent, as this functionality is not yet available to customers. The A2A integration has already been created and added to the tenant for this lab. Your task is to create an action using this A2A integration and test how it works.
+A2A Action is still in development and is currently available only for customer demos. In this mission, you will not be creating a complete A2A integration for the Webex AI Agent and the Third Party AI Agent, as this functionality is not yet available to customers. The A2A integration has already been created and added to the tenant for this lab on the backend. Your task is to create an action using this A2A integration and test how it works.
 
 For this mission, you will utilize the integration with the **Infermedica AI Agent**. This third-party AI agent is designed to support medical triage, symptom assessment, and patient intake by analyzing user-provided health information and symptoms.
 

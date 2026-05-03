@@ -25,7 +25,7 @@ Your mission is to:
 
 This task is read only. Read until Task 2. 
 
-1. You should have the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW provisioned in the tenant.
+1. You should have the AI Assistant SKU **A-FLEX-AI-ASST** from CCW provisioned in the tenant.
 
 2. Once you have provisioned it, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. From there, the customer can enable/disable the **Virtual Agent Transfer Summary** feature from the Control Hub.
    ![Profiles](../graphics/Lab1_AI_Agent/3.1.png)
@@ -46,10 +46,13 @@ This task is read only. Read until Task 2.
 1. Login to the **Agent Desktop** with your Admin user.
    ![Profiles](../graphics/Lab1_AI_Agent/3.39.png)
 
-2. Select **Desktop** as telephony option.
+2. Select **Desktop** Handle calls using option.
    ![Profiles](../graphics/Lab1_AI_Agent/3.44.png)
 
-3. Make sure you can see the **Agent Assistant** widget.
+3. Allow of using your headset. 
+   ![Profiles](../graphics/Lab1_AI_Agent/3.44a.png)
+
+4. Make sure you can see the **Agent Assistant** widget.
    ![Profiles](../graphics/Lab1_AI_Agent/3.6.png)
 
 4. Place a test call to the number that is associated with you Channel **<w class="attendee"></w>\_2000_Channel**, and, for example, mention that you need some flowers for a wedding party. **Allow the AI Agent to complete its response before requesting to transfer the call to a live human agent**. Then ask the AI Agent to transfer you to the human agent.
