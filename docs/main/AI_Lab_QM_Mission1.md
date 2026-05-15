@@ -29,18 +29,16 @@ Create an Evaluation Form with requirements to ask the caller's name and the occ
 4. Click on **Configurations** and then select to **Create a form**.
    ![Profiles](../graphics/Lab1_AI_Agent/12.4.png)
 
-5. In the Form title field enter **<copy><w class="attendee"></w>\_2000_Flower_Form</copy>**. In the Section name field enter **<copy>Initial_Questions</copy>**
+5. In the Form title field enter **<copy><w class="attendee"></w>\_2000_Flower_Form_</copy>**. In the Section name field enter **<copy>Initial_Questions</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/12.5.png)
 
 6. Configure the first question with the following:<br>
    > Question: **<copy>Was the caller's name asked?</copy>**<br>
-   > Context: **<copy>The agent needs to ask the caller's name every time the conversation starts.</copy>**<br>
    ![Profiles](../graphics/Lab1_AI_Agent/12.6.png)
 
 7. **Add question** and configure the second question with the following:<br>
-   > Question: **<copy>Was the caller asked what the occasion for the flowers was?</copy>**<br>
-   > Context: **<copy>The agent needs to ask the occasion for the flowers to better assist the customer.</copy>**<br>
-   ![Profiles](../graphics/Lab1_AI_Agent/12.7.gif)
+   > Question: **<copy>Have the agent asked what the occasion for the flowers was?</copy>**<br>
+   ![Profiles](../graphics/Lab1_AI_Agent/12.7.png)
 
 8. Scroll up and click on **Add assignment**. From the list of queues, select your queue **<copy><w class="attendee"></w>\_2000_Voice_Queue</copy>**. And click on **Assign**.
    ![Profiles](../graphics/Lab1_AI_Agent/12.8.gif)
@@ -56,16 +54,9 @@ Create an Evaluation Form with requirements to ask the caller's name and the occ
 2. Place a test call to the number that is associated with your channel **<copy><w class="attendee"></w>\_2000_Voice_Queue</copy>** and ask to talk to the human agent. During the conversation, ask the caller's name but don't ask what the occasion of the flowers is.
    ![Profiles](../graphics/Lab1_AI_Agent/12.11.png)
 
-3. Go back to your Supervisor Desktop in the Incognito Window ([https://alpha-desktop.wxcc-us1.cisco.com/interactions](https://alpha-desktop.wxcc-us1.cisco.com/)), click on **Interactions** and select **Completed**.
+3. Go back to your Supervisor Desktop in the Incognito Window, click on **Interactions** and select **Completed**. Find you call you will see that Evaluation score is 50%. Because only one of two questions was asked by the agent. 
    ![Profiles](../graphics/Lab1_AI_Agent/12.12.png)
 
-4. Find the **Customize** option and add **Automated evaluation** column.
-   ![Profiles](../graphics/Lab1_AI_Agent/12.13.png)
 
-5. Review your call and you should see the evaluation as 50%, as you only answered one of the two questions.
-   ![Profiles](../graphics/Lab1_AI_Agent/12.14.png)
-
-6. Click on **View** to see more details about the interaction and evaluation.
-   ![Profiles](../graphics/Lab1_AI_Agent/12.15.gif)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
