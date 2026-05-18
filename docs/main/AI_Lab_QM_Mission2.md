@@ -9,7 +9,7 @@ icon: material/medal
 
 Your mission is to:
 
-Create an Evaluation Form with requirements to ask the caller's name and the occasion for the flower purchase. Make test calls and, using the Supervisor Dashboard, evaluate if the agent asked these questions to the caller.
+Configure the Coaching Insights and review the results. 
 
 ---
 
@@ -32,14 +32,16 @@ Create an Evaluation Form with requirements to ask the caller's name and the occ
 5. Click **Save updates**.
    ![Profiles](../graphics/Lab1_AI_Agent/12.20.png)
 
+6. Place test call, connect it to your agent, let the call be wrapped up automatically. 
 
+7. On Supervisor Dashboard, got to **Team Performance** > **Historical**. 
+   ![Profiles](../graphics/Lab1_AI_Agent/12.21.gif)
 
+8. Find your team by searching for **<copy><w class="attendee"></w>_2000_Team</copy>**. Then click on **View**
+   ![Profiles](../graphics/Lab1_AI_Agent/12.22.png)
 
-
-
-
-
-
+9. You will see the Team Performance KPI together with Coaching Insights on the bottom.
+   ![Profiles](../graphics/Lab1_AI_Agent/12.23.png)
 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
