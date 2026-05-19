@@ -154,7 +154,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 17. **Validate** and **Publish** the flow with the **Latest** tag. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.18.gif)
 
-18. Place test call to your test number. Ask to order flowers, provide the requested information. Then trace the call in the voice flow. Click on HTTP Request node, decrypt the results to make sure you got 201 status result. 
+18. Place test call to your test number. Ask to order flowers, provide the requested information. At this point the agent will response that there was issue to process the order, this is because we still didn't configure to send the data back the the AI agent. Trace the call in the voice flow to make sure HTTP request was successful. Click on HTTP Request node, decrypt the results to make sure you got 201 status result. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.20.gif)
 
 ### Task 4. Report the order details to Analyzer.
