@@ -89,7 +89,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 12. Scroll down and for the **Fulfillment** option select **Manage in the source flow (voice only). Click **Save**
    ![Profiles](../graphics/Lab1_AI_Agent/19.2.png)
 
-13. Save and Publish your AI Agent. 
+13. **Publish** your AI Agent. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.33.gif)
 
 ### Task 3. Configure fulfillment logic in the Voice flow. 
@@ -195,6 +195,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 
 4. Place test call, create order with a number for SMS confirmation and you should receive the SMS. 
 
+       ![Profiles](../graphics/Lab1_AI_Agent/19.33a.png)
 
 
 ### Task 6. (<span style="color: red;"><strong>Read Only</strong></span>). Understand SMS configuration.
