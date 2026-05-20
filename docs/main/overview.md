@@ -23,23 +23,6 @@ icon: material/bullseye-arrow
 
    ![Profiles](../graphics/Lab1_AI_Agent/Login5.png)
 
-<style>
-    /* Style for the button */
-    button {
-        background-color: black;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        cursor: pointer;
-    }
-
-    /* Style for the input element */
-    input[type="text"] {
-        border: 2px solid black;
-        padding: 5px;
-    }
-</style>
-
 <!-- Markdown content with embedded HTML -->
 <div>
     <h3><b>Please submit the Attendee ID below.</b></h3> 

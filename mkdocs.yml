@@ -17,17 +17,17 @@ theme:
     - toc.integrate
   custom_dir: docs/overrides
   palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    # Light mode (manual toggle in header, top right)
+    - scheme: default
       primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    # Dark mode
+    - scheme: slate
       primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode

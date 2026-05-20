@@ -147,14 +147,18 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 15. Click on **VirtualAgentV2** node, open **State Event** and configure the **Event Name** as **<copy>{{event_name}}</copy>**. In this case when the interaction returns to the AI agent it stays in the same session and AI agent continue the conversation accordingly. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.17.gif)
 
-16. Enable decryption in the flow so you can monitor your further test calls details. 
+16. Next you need to bring the API call results back to your AI agent. For this, click on the **HTTP Request** node, scroll down on the right side and copy the name of the HTTPRequest...ResponseBody. Then go do **VirtualAgentV2** node, open the **State Events** insert the Http body response to the **Event Data** inside of the {{}}. See the steps on the gif below. 
+   ![Profiles](../graphics/Lab1_AI_Agent/19.17_.gif)
+
+
+17. Enable decryption in the flow so you can monitor your further test calls details. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.19.gif)
 
 
-17. **Validate** and **Publish** the flow with the **Latest** tag. 
+18. **Validate** and **Publish** the flow with the **Latest** tag. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.18.gif)
 
-18. Place test call to your test number. Ask to order flowers, provide the requested information. At this point the agent will response that there was issue to process the order, this is because we still didn't configure to send the data back the the AI agent. Trace the call in the voice flow to make sure HTTP request was successful. Click on HTTP Request node, decrypt the results to make sure you got 201 status result. 
+18. Place test call to your test number. Ask to order flowers, provide the requested information. You should hear that the order was completed successfully. Trace the call in the voice flow to make sure HTTP request was successful. Click on HTTP Request node, decrypt the results to make sure you got 201 status result. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.20.gif)
 
 ### Task 4. Report the order details to Analyzer.
@@ -173,7 +177,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 
 5. Place one more test call and order flowers. 
 
-6. Open the prebuilt [Analyzer Report](https://analyzer-v2.wxcc-us1.cisco.com/analyzer/view/visualization?tId=e56f00d4-98d8-4b62-a165-d05a41243d98&rId=303296){:target="_blank"} . You should see your call in the list. 
+6. Open the prebuilt [Analyzer Report](https://analyzer-v2.wxcc-us1.cisco.com/analyzer/view/visualization?tId=e56f00d4-98d8-4b62-a165-d05a41243d98&rId=303296){:target="_blank"}. You might need to enter your admin login credentials. Once logged in, you should see your call in the list. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.25.png)
 
 ### Task 5. Configure SMS Confirmation.
