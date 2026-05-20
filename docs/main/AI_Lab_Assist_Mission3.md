@@ -58,7 +58,7 @@ Your mission is to:
 ### Task 3. Test Real-Time Transcription feature in the Agent Desktop
 
 1. Make your agent **Available**.
-   ![Profiles](../graphics/Lab1_AI_Agent/3.15.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/3.6_.png)
 
 2. Place the test call to the number that is associated with you Channel **<w class="attendee"></w>\_2000_Channel**, and ask to talk to an agent.
 

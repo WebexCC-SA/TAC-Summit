@@ -40,12 +40,12 @@ Your mission is to:
 ### Task 2. Test Wrap-up Summary feature
 
 1. Make sure the agent is in the **Available** status.
-   ![Profiles](../graphics/Lab1_AI_Agent/3.47.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/3.6_.png)
 
 2. Place a call to your channel. Answer the call by the agent and put the agent on mute if you are using a Webex phone, as we use one microphone for both the caller and agent. As the customer say that you ordered flowers but didn't receive a delivery.
    ![Profiles](../graphics/Lab1_AI_Agent/3.49.png)
 
-3. Disconnect the call. You should see the wrap up summery of the call.
+3. Disconnect the call. You should see the wrap up code suggestion and the wrap up summery of the call.
    ![Profiles](../graphics/Lab1_AI_Agent/3.50.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

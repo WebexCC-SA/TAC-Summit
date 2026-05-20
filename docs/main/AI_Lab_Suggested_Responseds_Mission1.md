@@ -52,7 +52,7 @@ Create a Knowledge Base for the AI Assistant skill to use. This Knowledge Base w
 
 ### Task 3. Assign AI skills to your queue
 
-1. In the Webex Control Hub, go to Contact Center, scroll down until you see the **AI Features** module. Open it and select **Queue** tub. 
+1. In the Webex Control Hub, go to Contact Center, scroll down until you see the **AI Features** module. Open it and select **Queue** tab. 
    ![Profiles](../graphics/Lab1_AI_Agent/9.10a.gif)
 
 
