@@ -35,7 +35,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 3. Click on create <b>New Action</b>. From the drop-down option, select **Fulfillment**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.18.png)
 
-4. Configure it with name **_<copy>Create_New_Order</copy>_** and the Action description **_<copy>Collect order details, delivery address, total and response with the orderNumber once the order is completed.</copy>_**. In the Action score select <b>Slot filling and fulfillment</b>.
+4. Configure it with name **_<copy>Create_New_Order</copy>_** and the Action description **_<copy>Collect order details, delivery address, total and response with the id number once the order is completed. The request will contain the order details. From the order details let the customer know the order ID.</copy>_**. In the Action score select <b>Slot filling and fulfillment</b>.
    ![Profiles](../graphics/Lab1_AI_Agent/2.18a.gif)
 
 5. Scroll down and click to create **New input entity**. Fill up the table with the following and then click on **Add**. <br>
@@ -71,7 +71,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 9. By following the same pattern, create an entity to store the total price information of the order.<br>
    > Entity Name: **_<copy>orderTotal</copy>_**<br>
    > Entity Type: <b>string</b> <br>
-   > Description: **_<copy>After the customer inform if they need delivery or not, and confirm that they would like to proceed with completing the order, collect the Total information and assigned it to this slot.</copy>_**<br>
+   > Description: **_<copy>After the customer inform if they need delivery or not, and confirm that they would like to proceed with completing the order, collect the Total information and assigned it to this slot. Always use the number for the total. For example use 500 $ but not five hundred dollars.</copy>_**<br>
    > Example: **_<copy>150 dollars, 70 dollars</copy>_**<br>
    > Required: <b>Yes</b>
 
