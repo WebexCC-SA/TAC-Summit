@@ -118,3 +118,12 @@ copy:hover::after,
 .copy:hover::after {
     color: var(--md-accent-fg-color);
 }
+
+/* Read-only / optional labels — match mkdocs.yml: (<span style="color: red;"><strong>…</strong></span>) */
+.md-typeset span[style*="color: red"] strong,
+.md-typeset span[style*="color:red"] strong,
+.md-nav__link span[style*="color: red"] strong,
+.md-nav__link span[style*="color:red"] strong {
+    color: red !important;
+    font-weight: 700 !important;
+}

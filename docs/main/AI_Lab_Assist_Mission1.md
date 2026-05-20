@@ -21,7 +21,7 @@ Your mission is to:
 
 
 
-### <span style="color: red;">[READ ONLY]</span> Task 1. Order Provisioning & Control Hub Settings.
+### (<span style="color: red;"><strong>Read Only</strong></span>) Task 1. Order Provisioning & Control Hub Settings.
 
 This task is read only. Read until Task 2. 
 
@@ -46,7 +46,7 @@ This task is read only. Read until Task 2.
 1. Login to the **Agent Desktop** with your Admin user.
    ![Profiles](../graphics/Lab1_AI_Agent/3.39.png)
 
-2. Select **Desktop** Handle calls using option.
+2. Select **Desktop** Handle calls using option and click on **Save & Continue**.
    ![Profiles](../graphics/Lab1_AI_Agent/3.44.png)
 
 3. Allow of using your headset. 

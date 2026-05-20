@@ -24,9 +24,7 @@ Your mission is to:
 
 ## Build
 
-<span style="color: red;">[READ ONLY]</span>
-
-### (Read Only) Task 1. Order Provisioning & Control Hub Settings
+### (<span style="color: red;"><strong>Read Only</strong></span>) Task 1. Order Provisioning & Control Hub Settings
 
 1. You should have the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW provisioned in the tenant.
 
@@ -44,7 +42,7 @@ Your mission is to:
 1. Make sure the agent is in the **Available** status.
    ![Profiles](../graphics/Lab1_AI_Agent/3.47.png)
 
-2. Place a call to your channel. Answer the call with the agent and put the agent on mute if you are using a Webex phone to place the call, as we use one microphone for both the caller and agent. As the customer say that you ordered flowers but didn't receive a delivery.
+2. Place a call to your channel. Answer the call by the agent and put the agent on mute if you are using a Webex phone, as we use one microphone for both the caller and agent. As the customer say that you ordered flowers but didn't receive a delivery.
    ![Profiles](../graphics/Lab1_AI_Agent/3.49.png)
 
 3. Disconnect the call. You should see the wrap up summery of the call.

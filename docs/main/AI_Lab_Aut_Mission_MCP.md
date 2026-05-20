@@ -18,7 +18,8 @@ In Mission 3, you configured fulfillment by adding an HTTP request node to your 
 Using an MCP (Model Context Protocol) server is a highly practical approach. If you manage multiple agents and need to configure various fulfillment options for them, you no longer need to rebuild the same logic repeatedly within your flows. Instead, you can simply connect an MCP server and select the specific tool you need. You will love it!</br>
 
 For this mission, the MCP server was created and deployed on AWS with two tools:</br>
-1) Check Flower Store Locations. </br>
+![Profiles](../graphics/Lab1_AI_Agent/MCPAction_.png)</br>
+1) Check Flower Store Locations. The addresses are stored on the MCP server itself.</br>
 2) Check the order status by sending API call with the order ID to the MockAPI repository. </br>
 
 This MCP Sever repository you can find on github below. In the **READMe.md** file you will be able to fine instructions on how ot deploy it on AWS. You can use it as the example for implementing the MCP server for you production tenant, but for this lab it is already deployed so the link below is just the reference of the source code. </br>
@@ -71,18 +72,21 @@ In this mission you will work on adding this External MCP server to Webex cloud 
 
 ### Task 2. Enable the Agentic App in Control Hub.
 
-1. Go to Control Hub and open **Apps**, then click on **Agentic Apps**. 
+1. Go to Control Hub. If you are under the Contact Center settings, click on **Main Menu**.
+![Profiles](../graphics/Lab1_AI_Agent/15.9_.png)
+
+2. Open **Apps**, then click on **Agentic Apps**. 
 ![Profiles](../graphics/Lab1_AI_Agent/15.9.png)
 
-2. In the Apps find your Server name that associated to your id **<copy><w class="attendee"></w>\_MCP_Server</copy>** and open it. 
+3. In the Apps find your Server name that associated to your id **<copy><w class="attendee"></w>\_MCP_Server</copy>** and open it. 
 
-3. Make it **Allowed for all users** and enable the **Authorize automatic server data updates**. Click **Save**.
+4. Make it **Allowed for all users** and enable the **Authorize automatic server data updates**. Click **Save**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.10a.png)
 
-4. Click on **Authentication**. Configure the custom header with **Key 1**: **<copy>MCP_REQUEST_HEADERS</copy>** and the **Value** **<copy>4f9a2b7e1d8c6b3a0f92e4d5c6b8a1f7</copy>**. Then click on **Save**.
+5. Click on **Authentication**. Configure the custom header with **Key 1**: **<copy>MCP_REQUEST_HEADERS</copy>** and the **Value** **<copy>4f9a2b7e1d8c6b3a0f92e4d5c6b8a1f7</copy>**. Then click on **Save**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.11.png)
 
-5. Click on **Tools** and Allow **get_store_locations** and **check_order_status** tools and **Allow signature change**. Click **Save**.
+6. Click on **Tools** and Allow **get_store_locations** and **check_order_status** tools and **Allow signature change**. Click **Save**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.12.png)
 
 ### Task 3. Configure the MCP Server tools with your AI agent. 

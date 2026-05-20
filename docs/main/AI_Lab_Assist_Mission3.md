@@ -27,9 +27,7 @@ Your mission is to:
 
 ## Build
 
-<span style="color: red;">[READ ONLY]</span>
-
-### (Read Only) Task 1. Order Provisioning & Control Hub Settings
+### (<span style="color: red;"><strong>Read Only</strong></span>) Task 1. Order Provisioning & Control Hub Settings
 
 1. You should have the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW provisioned in the tenant.
 

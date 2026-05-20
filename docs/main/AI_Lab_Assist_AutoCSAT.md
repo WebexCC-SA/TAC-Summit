@@ -23,7 +23,7 @@ Your mission is to learn how to view the AutoCSAT score for customer interaction
 
 
 
-### <span style="color: red;">[READ ONLY]</span> Task 1. Order Provisioning & Control Hub Settings
+### (<span style="color: red;"><strong>Read Only</strong></span>) Task 1. Order Provisioning & Control Hub Settings
 
 1. You should have the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW provisioned in the tenant.
 
@@ -39,7 +39,7 @@ Your mission is to learn how to view the AutoCSAT score for customer interaction
 - In our lab, we are using **Global Variable** AutoCSAT_GV as the variable to train our Auto CSAT model.
   ![Profiles](../graphics/Lab1_AI_Agent/3.21.png)
 
-### <span style="color: red;">[READ ONLY]</span> Task 2. Explore AutoCSAT using Analyzer report and Supervisor Dashboard
+### (<span style="color: red;"><strong>Read Only</strong></span>) Task 2. Explore AutoCSAT using Analyzer report and Supervisor Dashboard
 
 1. Under Contact Center in Control Hub, click **Overview** and from **Quick Links** open up **Analyzer**.
    ![Profiles](../graphics/Lab1_AI_Agent/3.22.gif)
