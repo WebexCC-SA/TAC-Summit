@@ -3,7 +3,7 @@
 icon: material/medal
 ---
 
-# Mission 9: Customize AI Agent Language
+# Mission 8: Customize AI Agent Language
 
 ## Mission overview
 
