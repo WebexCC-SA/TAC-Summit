@@ -47,7 +47,7 @@ Create a Knowledge Base for the AI Assistant skill to use. This Knowledge Base w
 3. Name the skill as **<copy><w class="attendee"></w>\_Suggested_Responses_Skill</copy>**. Describe the goals as **<copy>Answer question about flower suggestion, flower availability, prices, delivery cost and order status.</copy>**. And then click on **Create**.
    ![Profiles](../graphics/Lab1_AI_Agent/9.8.gif)
 
-4. Link the knowledge base to the skill in the **Knowledge** section. **Save** and **Publish** the changes.
+4. Switch to **Knowledge** tab. From drop-down list, search for **<copy><w class="attendee"></w>\_Suggested_Responses_Knowledge</copy>** If you don't see your **Knowledge base** in the list it still could be processing. Then select the one we processed earlier for your user. From **Knowledge base** drop-down list, select **<copy><w class="attendee"></w>\_Suggested_Responses_Plan_B</copy>**. Click on **Save changes**. **Save** and **Publish** the changes.
    ![Profiles](../graphics/Lab1_AI_Agent/9.9.gif)
 
 ### Task 3. Assign AI skills to your queue

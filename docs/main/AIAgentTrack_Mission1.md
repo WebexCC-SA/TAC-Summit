@@ -156,7 +156,7 @@ Your mission is to:
 
 16. <span style="color: red;">[Read Only]</span> Here you can find the best practices on how to write the  Instructions: [Prompt engineering tips when writing instructions](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
 
-17. Switch to **Knowledge** tab. The **Knowledge base** that you created earlier could still be processing so you will select the one we processed earlier for you. From **Knowledge base** drop-down list, select **<copy><w class="attendee"></w>\_2000_AI_KB_Plan_B</copy>**. Click on **Save changes**
+17. Switch to **Knowledge** tab. From drop-down list, search for **<copy><w class="attendee"></w>\_2000_AI_KB</copy>** If you don't see your **Knowledge base** in the list it still could be processing. Then select the one we processed earlier for your user. From **Knowledge base** drop-down list, select **<copy><w class="attendee"></w>\_2000_AI_KB_Plan_B</copy>**. Click on **Save changes**
     ![Profiles](../graphics/Lab1_AI_Agent/2.5.gif)
 
 18. **Publish** the AI Agent. Provide any version name in popped up window (e.g. "V1").<br>
