@@ -49,7 +49,7 @@ Configure the fulfillment flow to track the status of existing orders. This func
    > Select the **Action scope** as **Slot filling and fulfillment.**
    ![Profiles](../graphics/Lab1_AI_Agent/9.23.png)
 
-6. Add **New input entity**. Configure it with the following: <br>
+5. Add **New input entity**. Configure it with the following: <br>
    > Name: **<copy>orderNumber</copy>**. <br>
    > Entity type: **String** <br>
    > Entity description: **<copy>If the customer wants to track an order, collect the order number to this entity. </copy>** <br>
@@ -107,7 +107,7 @@ Configure the fulfillment flow to track the status of existing orders. This func
 
 ### Task 5. Test the Suggested Responses feature with fulfillment
 
-1. Login to **Agent Desktop**.
+1. Make sure you are available in the **Agent Desktop**.
 
 2. Place the call to the number that is related to your channel **<copy><w class="attendee"></w>\_2000_Channel</copy>**.
 

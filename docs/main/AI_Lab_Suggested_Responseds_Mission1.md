@@ -71,7 +71,7 @@ Create a Knowledge Base for the AI Assistant skill to use. This Knowledge Base w
 ### Task 5. Test Real-Time Assist Feature
 
 1. Make sure you **Agent Desktop** is open and you are in the **Available** status. 
-   ![Profiles](../graphics/Lab1_AI_Agent/9.15.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/3.6_.png)
 
 2. Call to the number that is related to your **<copy><w class="attendee"></w>\_2000_Channel</copy>**. Once you connect to the AI agent, ask to speak to a human agent.
 
