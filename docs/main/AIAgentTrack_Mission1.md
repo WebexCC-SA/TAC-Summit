@@ -41,7 +41,7 @@ Your mission is to:
 7. Click on **Upload Files**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.1.a.png)
 
-8. Click **Add File** or drag and drop the downloaded file **Flower_Catalog.xlsx** you downloaded on **Step 1**. Then click **Process Files**. Wait until the file is processed. It could take 1-2 mins.
+8. Click **Add File** or drag and drop the downloaded file **Flower_Catalog.xlsx** you downloaded on **Step 1**. Then click **Process Files**. Wait until the file is processed. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.2.gif)
 
 
@@ -61,7 +61,7 @@ Your mission is to:
     >
     > AI engine: **Webex AI Pro 1.0**
     >
-    > Agent's goal: **_<copy>This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation SMS with the order details.</copy>_**
+    > Agent's goal: **_<copy>This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation SMS with the order details. Do the math for the total flower price. For example if the agent want to order 20 roses and the price for one rose is 20 $ in the knowledge base it should calculate the total as 400 $. Add delivery 50 to the total if require.</copy>_**
 
     > <span style="color: red;">[Read Only]</span> Here you can find the best practices on how to write the  Agent"s goal.
     >  [Do's and Don'ts when writing goals](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
@@ -158,7 +158,7 @@ Your mission is to:
 
 16. <span style="color: red;">[Read Only]</span> Here you can find the best practices on how to write the  Instructions: [Prompt engineering tips when writing instructions](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
 
-17. Switch to **Knowledge** tab. From drop-down list, search for **<copy><w class="attendee"></w>\_2000_AI_KB</copy>**. If you don't see your **Knowledge base** in the list it still could be processing. Then select the one we processed earlier for your user. From **Knowledge base** drop-down list, select **<copy><w class="attendee"></w>\_2000_AI_KB_Plan_B</copy>**. Click on **Save changes**
+17. Switch to **Knowledge** tab. From drop-down list, search for **<copy><w class="attendee"></w>\_2000_AI_KB</copy>**. If you don't see your **Knowledge base** in the list it still could be processing. Then select the one we processed earlier for your user. From **Knowledge base** drop-down list, select **<copy><w class="attendee"></w>\_2000_AI_KB_Plan_B</copy>**. Click on **Save changes**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.5.gif)
 
 18. **Publish** the AI Agent. Provide any version name in popped up window (e.g. "V1").<br>
