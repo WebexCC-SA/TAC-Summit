@@ -19,13 +19,19 @@ The all-new topic analytics empowers you to discover emerging topics as customer
 3. Make sure the team is selected that associated with your account. For the Handle calls option use **Desktop**.
    ![Profiles](../graphics/Lab1_AI_Agent/1.39.png)
 
-4. The Administrator can review the review the **Topic Dashboard** to understand why customers are calling the Contact Center and see the area that can be automated or improved. 
+4. Click on **Allow while visiting the site** to enable your headset to work with Agent Desktop.
+   ![Profiles](../graphics/Lab1_AI_Agent/1.39_.png)
+
+5. Increase the time window to 30 days.
+   ![Profiles](../graphics/Lab1_AI_Agent/1.39_1.png)
+
+6. The Administrator can review the review the **Topic Dashboard** to understand why customers are calling the Contact Center and see the area that can be automated or improved. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.40.png)
 
-5. The Administrator can **Manage Topics** by merging, deleting or adding new topics.
+6. The Administrator can **Manage Topics** by merging, deleting or adding new topics.
    ![Profiles](../graphics/Lab1_AI_Agent/1.41.png)
 
-3. In the **Configuration** section, the Administrator can enable Real-Time Topic Analytics for the organization and specify if all or only specific queues should be analyzed using Topic Analytics.
+7. In the **Configuration** section, the Administrator can enable Real-Time Topic Analytics for the organization and specify if all or only specific queues should be analyzed using Topic Analytics.
    ![Profiles](../graphics/Lab1_AI_Agent/1.42.png)
 
 
