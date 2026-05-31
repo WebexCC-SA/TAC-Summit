@@ -134,7 +134,7 @@ nav:
               - 'Mission 4: (<span style="color: red;"><strong>Read Only</strong></span>) Call Drop Summary': ./main/AI_Lab_Assist_Mission_2.md
               - 'Mission 5: (<span style="color: red;"><strong>Read Only</strong></span>) AutoCSAT': ./main/AI_Lab_Assist_AutoCSAT.md
           - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
-      - Real-Time Assist (Suggested Responses):
+      - 'Real-Time Assist (Suggested Responses) (<span style="color: red;"><strong>Optional</strong></span>)':
           - Lab Guide:
               - "Lab overview": ./main/AI_Lab_Suggested_Responses_Overview.md
               - "Mission 1: Configure Real-Time Assist with Knowledge Base": ./main/AI_Lab_Suggested_Responseds_Mission1.md
