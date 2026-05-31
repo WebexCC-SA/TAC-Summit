@@ -90,7 +90,9 @@ For now when the first AI agent transferred the call to the second AI agent, the
 3. Validate and Publish the flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/14.17.png)
 
+
 4. Place test call and ask to order 3 boxes of red roses. You should be redirected to the Wholesale department and the second AI agent should know the context of the conversation once it is connected. 
 
+5. In the AI agent settings if you go to **Actions** and open the **Transfer_to_different_department** action there is option to enable the **Announce transfer**. Enable it and place one more test call. You should see the announcement that you call will be transferred to another department 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
