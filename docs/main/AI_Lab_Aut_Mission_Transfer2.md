@@ -61,11 +61,36 @@ For this mission, the proctor has created Webex AI Agent named **Flower_Wholesal
 
 ### Task 3. Test Webex AI Agent transfer to Webex AI Agent
 
-Place a call to the number associated with your Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>** and ask to speak with the **Wholesale** department. You will be connected to an AI agent who can assist you with ordering flowers if you need to purchase at least one box (each box contains 100 flowers). In this case, the price will be different. Below, you can find the screenshot of the knowledge base used by the Flower_WholeSale AI Agent.
+Place a call to the number associated with your Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>** and ask to order several boxes or roses. **For example ask for 2 boxes of red roses**. You will be connected to an AI agent who can assist you with ordering flowers if you need to purchase at least one box (each box contains 100 flowers). In this case, the price will be different. Below, you can find the screenshot of the knowledge base used by the Flower_WholeSale AI Agent.
 ![Profiles](../graphics/Lab1_AI_Agent/14.12.png)
 
 Or you can review the full configuration of the **Flower_Wholesale** AI Agent in the AI Agent Studio.
 ![Profiles](../graphics/Lab1_AI_Agent/14.14.png)
+
+
+Task 4. Configure the context share between two AI Agents.
+
+For now when the first AI agent transferred the call to the second AI agent, the context was not shared. So the wholesale AI agent would need to ask the customer question about the context that was already shared with the first AI agent. For example how many boxed of flowers they need. There is feature the share the context between AI agents and you will be enabling it in this Task. 
+
+1. Go to you voice flow and open up the configurations for the Wholesale AI agent
+![Profiles](../graphics/Lab1_AI_Agent/14.15.png)
+
+2. Open up **State Event** section and under the **Event Data** enter the following (use the **copy** icon on the code block):
+
+    ``` json
+    {
+      "agent_metadata": {
+        "dynamic_welcome_message": true
+      }
+    }
+    ```
+
+    ![Profiles](../graphics/Lab1_AI_Agent/14.16.png)
+
+3. Validate and Publish the flow. 
+    ![Profiles](../graphics/Lab1_AI_Agent/14.17.png)
+
+4. Place test call and ask to order 3 boxes of red roses. You should be redirected to the Wholesale department and the second AI agent should know the context of the conversation once it is connected. 
 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
