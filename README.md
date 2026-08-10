@@ -1,5 +1,3 @@
-# Lab Guide for WebexOne Lab LAB-2342
+# Lab Guide for TAC-Summit
 
-Web guide link: https://webexcc-sa.github.io/LAB-2342
-
-PDF guide link (if enabled): https://webexcc-sa.github.io/LAB-2342/pdf/document.pdf
+Web guide link: https://webexcc-sa.github.io/TAC-Summit
