@@ -1,6 +1,6 @@
 ---
-site_name: "LTRCCT-2000: Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights" # This must begin with the session ID, e.g. LABXXX-1234 This is my Cisco Live Lab
-site_description: "LTRCCT-2000: Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights" # must be same as "site_name"
+site_name: "TAC Summit 2026"
+site_description: "TAC Summit 2026"
 site_author: Kevin Simpson, Mykola Danylchuk
 copyright: Copyright &copy; 2026 Cisco
 theme:
