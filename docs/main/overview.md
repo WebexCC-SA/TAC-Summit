@@ -3,33 +3,13 @@
 icon: material/bullseye-arrow
 ---
 
-## Get your login credentials
-
-1. In the Chrome browser open the lab access page **<copy>https://lab-assistant.com</copy>**
-
-2. Enter the access code **<copy>163728</copy>** and press **Enter**.
-   ![Profiles](../graphics/Lab1_AI_Agent/Login1.png)
-
-3. Navigate to the **POD** section.
-   ![Profiles](../graphics/Lab1_AI_Agent/Login2.png)
-
-4. Look at the bottom of your right screen; you will see tag with your pod number.
-   ![Profiles](../graphics/Lab1_AI_Agent/Login3.png)
-
-5. Select the pod that is associated with the number tag attached to your screen.
-   ![Profiles](../graphics/Lab1_AI_Agent/Login4.png)
-
-6. Use this Attendee ID and login details to follow the lab. You can copy and paste login credentials and other details into a notepad if this would be convenient for you.
-
-   ![Profiles](../graphics/Lab1_AI_Agent/Login5.png)
-
 <!-- Markdown content with embedded HTML -->
 <div>
-    <h3><b>Please submit the Attendee ID below.</b></h3> 
+    <h3><b>Please submit the Attendee as your last name.</b></h3> 
     <h3>All configuration entries in the lab guide will be renamed to include your Attendee ID.</h3>
     <form id="info">
         <label for="attendee">Attendee ID:</label>
-        <input type="text" id="attendee" name="attendee" placeholder="Enter 3 digits" required>
+        <input type="text" id="attendee" name="attendee" placeholder="Enter your last name" required>
         <button onclick="setValues()">Save</button>
     </form>
 
