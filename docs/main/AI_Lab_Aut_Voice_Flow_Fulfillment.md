@@ -35,7 +35,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 3. Click on create <b>New Action</b>. From the drop-down option, select **Fulfillment**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.18.png)
 
-4. Configure it with name **_<copy>Create_New_Order</copy>_** and the Action description **_<copy>Collect order details, delivery address, total and response with the id number once the order is completed. The request will contain the order details. From the order details let the customer know the order ID.</copy>_**. In the Action score select <b>Slot filling and fulfillment</b>.
+4. Configure it with name **_<copy>Create_New_Order</copy>_** and the Action description **_<copy>Collect order details, delivery address, total and response with the id number once the order is completed. The request will contain the order details. From the order details let the customer know the order ID.</copy>_**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.18a.gif)
 
 5. Scroll down and click to create **New input entity**. Fill up the table with the following and then click on **Add**. <br>
@@ -177,7 +177,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 
 5. Place one more test call and order flowers. 
 
-6. Open the prebuilt [Analyzer Report](https://analyzer-v2.wxcc-us1.cisco.com/analyzer/view/visualization?tId=e56f00d4-98d8-4b62-a165-d05a41243d98&rId=303296){:target="_blank"}. You might need to enter your admin login credentials. Once logged in, you should see your call in the list. 
+6. Open the prebuilt [Analyzer Report](https://analyzer-v2.wxcc-us1.cisco.com/analyzer/view/visualization?tId=7c3733e0-ea21-4e66-9e73-b14c6ac91c27&rId=331999){:target="_blank"}. You might need to enter your admin login credentials. Once logged in, you should see your call in the list. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.25.png)
 
 ### Task 5. Configure SMS Confirmation.

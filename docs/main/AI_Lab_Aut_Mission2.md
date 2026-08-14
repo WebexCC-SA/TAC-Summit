@@ -55,7 +55,7 @@ Configure Fulfillment action to collect order details from the customer and send
 3. Click on create <b>New Action</b>. From the drop-down option, select **Fulfillment**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.18.png)
 
-4. Configure it with name **_<copy>Create_New_Order</copy>_** and the Action description **_<copy>Collect order details, delivery address, total and response with the orderNumber once the order is completed.</copy>_**. In the Action score select <b>Slot filling and fulfillment</b>.
+4. Configure it with name **_<copy>Create_New_Order</copy>_** and the Action description **_<copy>Collect order details, delivery address, total and response with the orderNumber once the order is completed.</copy>_**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.18a.gif)
 
 5. Scroll down and click to create **New input entity**. Fill up the table with the following and then click on **Add**. <br>
