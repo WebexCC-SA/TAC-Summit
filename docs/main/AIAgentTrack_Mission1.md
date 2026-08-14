@@ -21,7 +21,7 @@ Your mission is to:
 1. Download the .xlsx file [Flowrs_Catalog](https://docs.google.com/spreadsheets/d/1A5d1ZEPWmPE_38Bi8bVULKLhCH0wyGX4/edit?usp=sharing&ouid=100862210011127627593&rtpof=true&sd=true){:target="\_blank"}.
    > **Flower_Catalog.xlsx** - file contains information on the available single flowers and bouquets, including the price of the flowers or bouquets and occasions that suit the flowers.
    ![Profiles](../graphics/Lab1_AI_Agent/2.74.png)
-2. Microsoft office is not installed on this PC so you cannot open the file directly to review it. So please review the screenshots below to understand the file content that you will be using for you Knowledge base.
+2. Please review the screenshots below to understand the file content that you will be using for you Knowledge base.
    ![Profiles](../graphics/Lab1_AI_Agent/Knowledge1.png)
    ![Profiles](../graphics/Lab1_AI_Agent/Knowledge2.png)
    ![Profiles](../graphics/Lab1_AI_Agent/Knowledge3.png)
@@ -41,11 +41,11 @@ Your mission is to:
 7. Click on **Upload Files**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.1.a.png)
 
-8. Click **Add File** or drag and drop the downloaded file **Flower_Catalog.xlsx** you downloaded on **Step 1**. Then click **Process Files**. Wait until the file is processed. 
+8. Click **Add File** or drag and drop the downloaded file **Flower_Catalog.xlsx** you downloaded on **Step 1**. Then click **Process Files**. Wait until the file is processed.
+   Note, the file processing might take up to 20 mins.
    ![Profiles](../graphics/Lab1_AI_Agent/2.2.gif)
 
-
-9. <span style="color: red;">[Read Only]</span> : You can also create an Article or refer your Websites for the Knowledge source. 
+9. <span style="color: red;">[Read Only]</span> : You can also create an Article or refer your Websites for the Knowledge source.
    ![Profiles](../graphics/Lab1_AI_Agent/2.2.a.png)
 
 10. Navigate to **AI Agents** from the left-hand side menu panel and click on **Create Agent**.
@@ -59,17 +59,12 @@ Your mission is to:
     >
     > System ID is created automatically
     >
-    > AI engine: **Webex AI Pro 1.0**
+    > AI engine: **Webex AI Pro 2.0**
     >
-    > Agent's goal: **_<copy>This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation SMS with the order details. Do the math for the total flower price. For example if the agent want to order 20 roses and the price for one rose is 20 $ in the knowledge base it should calculate the total as 400 $. Add delivery 50 to the total if require.</copy>_**
 
-    > <span style="color: red;">[Read Only]</span> Here you can find the best practices on how to write the  Agent"s goal.
-    >  [Do's and Don'ts when writing goals](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
+    ![Profiles](../graphics/Lab1_AI_Agent/2.3.png)
 
-
-    ![Profiles](../graphics/Lab1_AI_Agent/2.3.gif)
-
-14. Customize the Welcome message with: **_<copy>Hi there, my name is Blossom, the AI Agent. How can I assist you?</copy>_**
+14. Customize the Welcome message with: **_<copy>How can I assist you today?</copy>_**
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.16.png)
 
@@ -184,7 +179,7 @@ Your mission is to:
 
 16. <span style="color: red;">[Read Only]</span> Here you can find the best practices on how to write the  Instructions: [Prompt engineering tips when writing instructions](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
 
-17. Switch to **Knowledge** tab. From drop-down list, search for **<copy><w class="attendee"></w>\_2000_AI_KB</copy>**. If you don't see your **Knowledge base** in the list it still could be processing. Then select the one we processed earlier for your user. From **Knowledge base** drop-down list, select **<copy><w class="attendee"></w>\_2000_AI_KB_Plan_B</copy>**. Click on **Save changes**.
+17. Switch to **Knowledge** tab. From drop-down list, search for **<copy><w class="attendee"></w>\_2000_AI_KB</copy>**. If you don't see your **Knowledge base** in the list it still could be processing. Click on **Save changes**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.5.gif)
 
 18. **Publish** the AI Agent. Provide any version name in popped up window (e.g. "V1").<br>

@@ -41,25 +41,34 @@ Integrate the AI Agent with the Voice Flow.
     - Connect the **Escalated** path from the **Virtual Agent V2** activity to the **Queue Contact** activity.
     - Connect the **Queue Contact** activity to the **Play Music** activity.
     - Click on the **Queue Contact** node and select **Static Queue**.
-    - Queue name: **<copy><w class="attendee"></w>\_2000_Voice_Queue</copy>**
+    - Queue name: **TS_Voice_Queue**
     - **Play Music**
     - Create a loop by connecting the Play Music activity back to itself - to create a music loop, following the example provided below.
-    - Click on the **Play Music** node and select Music File: **defaultmusic_on_hold_cisco_opus_no_1.wav**.
+    - Click on the **Play Music** node and select Music File: **defaultmusic_on_hold.wav**.
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.50.gif)
 
 7. **Validate** and **Publish** Flow. In the popped up window, click on dropdown menu to select **Latest** label (**DO NOT** Select any other tag but only **Latest**), then click **Publish**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.51.gif)
 
-8. Assign the Flow to your **Channel (Entry Point)**. Do this by first going to **Channels** and search for your channel **<copy><w class="attendee"></w>\_2000_Channel</copy>**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.52.png)
+8. Go to **Channels**, find the channel with name **180_2000_Channel** and make the copy of it. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.52a.png)
+
+9. Rename the Channel by replacing the **180** with your **last name**1 and removing everything after Channel.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.52e.png) 
+
+10. Select the routing flow that you have created earlier.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.52d.png)
 
 
-9. Click on **<copy><w class="attendee"></w>\_2000_Channel</copy>**. In the **Channel** settings section, change the following and then **Save** the changes.<br/>
-    Routing Flow: **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**<br/>
-    Version Label: **Latest**<br/>
-    ![Profiles](../graphics/Lab1_AI_Agent/2.53.gif)
-10. Dial the support number assigned to your **<w class="attendee"></w>\_2000_Channel** to test the Autonomous AI Agent over a voice call.
+11. On the buttom select any number from Site1 pool.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.52b.png)
+
+12. Click on **Create**
+  ![Profiles](../graphics/Lab1_AI_Agent/2.52c.png)
+
+
+13. Dial the support number assigned to your **<w class="attendee"></w>\_2000_Channel** to test the Autonomous AI Agent over a voice call.
    ![Profiles](../graphics/Lab1_AI_Agent/2.84.png)
 
 ### Task 2. Test Agent Handoff Configurations
