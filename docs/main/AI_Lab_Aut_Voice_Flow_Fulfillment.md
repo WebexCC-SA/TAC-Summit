@@ -57,7 +57,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 7. By following the same pattern, create an entity to collect the customer's phone number.<br>
    > Entity Name: **_<copy>phoneNumber</copy>_**<br>
    > Entity Type: <b>string</b> <br>
-   > Description: **_<copy>Collect customer's phone number. Before the customer complete the order, ask if they would like to receive confirmation over the SMS. If so, collect the phone number.</copy>_**<br>
+   > Description: **_<copy>Collect customer's phone number. Just for the order details.</copy>_**<br>
    > Example: **_<copy>3477579861</copy>_**<br>
    > Required: <b>Yes</b>
 
@@ -179,46 +179,5 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 
 6. Open the prebuilt [Analyzer Report](https://analyzer-v2.wxcc-us1.cisco.com/analyzer/view/visualization?tId=7c3733e0-ea21-4e66-9e73-b14c6ac91c27&rId=331999){:target="_blank"}. You might need to enter your admin login credentials. Once logged in, you should see your call in the list. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.25.png)
-
-### Task 5. Configure SMS Confirmation.
-
-1. In the flow add one more **HTTP Request** node and connect it between **SetVariable** node and **VirtualAgentV2** nodes.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.26.gif)
-
-2. Configure the **HTTP Request** with the following:
-    - Use authenticated endpoint: **Off**
-    - Request URL: **<copy>https://hooks.us.webexconnect.io/events/93VKZM1N24</copy>**
-    - Method: **POST**
-    - Content type: **Application/JSON**
-    - Request body: Body output variable from HTTP request node that you use to create order. The same one that you was using for **SetVariable** node to post the data to Analyzer. See the gif below. **Put it inside of {{}}**.
-       ![Profiles](../graphics/Lab1_AI_Agent/19.27.gif)
-
-
-3. Validate and Publish the flow. 
-       ![Profiles](../graphics/Lab1_AI_Agent/19.33.gif)
-
-4. Place test call, create order with a number for SMS confirmation and you should receive the SMS. 
-
-       ![Profiles](../graphics/Lab1_AI_Agent/19.33a.png)
-
-
-### Task 6. (<span style="color: red;"><strong>Read Only</strong></span>). Understand SMS configuration.
-
-We have preconfigured the SMS flow in this lab that can be triggered using Webhook. To understand the configuration:
-
-1. From **Control Hub**, go to **Contact Center** > **Overview** > **Webex Connect**.
-       ![Profiles](../graphics/Lab1_AI_Agent/19.28.gif)
-
-2. Open up Service **<copy>180_2000_Service_</copy>** > **Flows**. This is lab proctor Service where Webhook was configured to trigger the SMS. 
-       ![Profiles](../graphics/Lab1_AI_Agent/19.29.gif)
-
-3. Open the Flow **SMS_Webhook**. Please don't do any changes as everybody on this lab are using this flow. This Task is read only, no configurations are needed. 
-       ![Profiles](../graphics/Lab1_AI_Agent/19.30.gif)
-
-4. Double click on **Configure Webhook** node. You can see the Webhook URL that we configured in our voice flow and the variables that we are expecting in the body request. 
-       ![Profiles](../graphics/Lab1_AI_Agent/19.31.png)
-
-5. Double click on **SMS** node. You will see that the number is carried on from **Webhook** as well as other variables in the **Message** section. The **From Number** 12066478712 is the PSTN provisioned number for SMS. 
-       ![Profiles](../graphics/Lab1_AI_Agent/19.32.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Autonomous AI Agent lab! 🎉🎉 </strong></p>
