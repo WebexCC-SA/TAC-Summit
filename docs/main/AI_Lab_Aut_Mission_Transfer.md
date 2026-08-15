@@ -113,7 +113,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 17. Bring two **Queue Contact** nodes to the flow.
     ![Profiles](../graphics/Lab1_AI_Agent/11.21.gif)
 
-18. Configure one **Queue node** with **<copy>2000_HR_Queue</copy>** and the other one with **<copy>2000_Billing_Queue</copy>**.
+18. Configure one **Queue node** with **<copy>HR_Queue</copy>** and the other one with **<copy>Billing_Queue</copy>**.
     ![Profiles](../graphics/Lab1_AI_Agent/11.22.gif)
 
 19. Connect **HR** output from **Case** node to the **HR Queue** node. Connect **HR Queue** node to the **Play Music** node.
