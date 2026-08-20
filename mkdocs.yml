@@ -128,8 +128,14 @@ nav:
           - "Problem 1: AI Agent Does Not Answer the Call": ./main/AI_Lab_Aut_Troubleshoot_Problem1.md
           - "Problem 2: No Response from the Knowledge Base": ./main/AI_Lab_Aut_Troubleshoot_Problem2.md
           - "Problem 3: Order Is Not Created Using Webex Connect": ./main/AI_Lab_Aut_Troubleshoot_Problem3.md
-          - "Problem 4: Transfer to Queue Fails": ./main/AI_Lab_Aut_Troubleshoot_Problem4.md
-          - "Problem 5: MCP Action Does Not Return Order Status": ./main/AI_Lab_Aut_Troubleshoot_Problem5.md
+          - "Problem 4: Order Is Not Created Using Webex Connect 2": ./main/AI_Lab_Aut_Troubleshoot_Problem4.md
+          - "Problem 5: Order Is Not Created Using Webex Connect 3": ./main/AI_Lab_Aut_Troubleshoot_Problem5.md
+          - "Problem 6: Confirm That Order Is Created and Agent Receives the Confirmation": ./main/AI_Lab_Aut_Troubleshoot_Problem6.md
+          - "Problem 7: Order Is Not Created Using Voice Flow": ./main/AI_Lab_Aut_Troubleshoot_Problem7.md
+          - "Problem 8: Order Is Not Created Using Voice Flow 2": ./main/AI_Lab_Aut_Troubleshoot_Problem8.md
+          - "Problem 9: Order Is Not Created Using Voice Flow 3": ./main/AI_Lab_Aut_Troubleshoot_Problem9.md
+          - "Problem 10: Transfer Call to HR Queue Landed on the Default Queue": ./main/AI_Lab_Aut_Troubleshoot_Problem10.md
+          - "Problem 11: Transfer Call to Wholesale AI Agent Doesn't Have Shared Context": ./main/AI_Lab_Aut_Troubleshoot_Problem11.md
       - Conclusion: ./main/AI_Lab_Aut_Troubleshoot_Conclusion.md
   # - AI Assistant:
   #     - AI Assistant Featurs:

@@ -3,13 +3,13 @@
 icon: material/medal
 ---
 
-# Problem 4: Order Is Not Created Using Webex Connect 2
+# Problem 9: Order Is Not Created Using Voice Flow 3
 
 ## Problem overview
 
 Your goal is to:
 
-**Investigate why a customer order is not created when the caller completes the order flow with the Autonomous AI Agent.** Use the Webex AI Agent settings, Webex AI Agent Session logs and Webex Connect Logs to find the root cause. Do not change the configuration.
+**Investigate why a customer order is not created when the caller completes the order flow with the Autonomous AI Agent.** Use the Webex AI Agent settings, Webex AI Agent Session logs and Voice Flow logs to find the root cause. Do not change the configuration.
 
 ---
 
@@ -20,7 +20,7 @@ Your goal is to:
 3. Open the AI agent configured for this problem and go to **Actions**.
 4. Locate the action used to **create a new order** and review how it is configured.
 5. Navigate to **Sessions**, locate the conversation from your test call, and review the session trace for the order creation attempt.
-6. Find the correlated call in the **Webex Connect** portal for the related Webex Connect flow and review the logs.
+6. Review the related **WxCC voice flow** trace and logs to identify why the order was not created.
 
 ## Quiz
 

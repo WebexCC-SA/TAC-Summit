@@ -3,31 +3,25 @@
 icon: material/medal
 ---
 
-# Problem 5: MCP Action Does Not Return Order Status
+# Problem 5: Order Is Not Created Using Webex Connect 3
 
 ## Problem overview
 
 Your goal is to:
 
-**Investigate why the MCP action does not return the expected order status to the caller.** Use the session logs to find the root cause. Do not change the configuration.
+**Investigate why a customer order is not created when the caller completes the order flow with the Autonomous AI Agent.** Use the Webex AI Agent settings, Webex AI Agent Session logs and Webex Connect Logs to find the root cause. Do not change the configuration.
 
 ---
 
-## Investigate
+## Troubleshooting Steps
 
-### Task 1. Reproduce the issue
+1. Dial **<copy>+19842990134</copy>** and place an order with the AI agent—for example, say, **This is for birthday party, I need 20 red roses no delivery.**
+2. From Control Hub, go to **Contact Center** > **Overview** and open **Webex AI Agent**.
+3. Open the AI agent configured for this problem and go to **Actions**.
+4. Locate the action used to **create a new order** and review how it is configured.
+5. Navigate to **Sessions**, locate the conversation from your test call, and review the session trace for the order creation attempt.
+6. Find the correlated call in the **Webex Connect** portal for the related Webex Connect flow and review the logs.
 
-1. Sign in to [Webex Control Hub](https://admin.webex.com){:target="_blank"} using one of the lab accounts from the [Lab overview](AI_Lab_Aut_Troubleshoot_Overview.md).
-2. Dial **<copy>+19842990134</copy>** and ask for an order status update that should be handled by the MCP action.
+## Quiz
 
-### Task 2. Review conversation logs
-
-1. From Control Hub, go to **Contact Center** > **Overview** and open **Webex AI Agent**.
-2. Open the AI agent assigned to this problem.
-3. Navigate to **Sessions** and locate the conversation from your test call.
-4. Review the session trace and identify why the MCP action failed or returned an unexpected result.
-
-### Task 3. Document your finding
-
-1. Write down the root cause you identified from the logs.
-2. Be prepared to discuss your finding with the instructor.
+??? challenge

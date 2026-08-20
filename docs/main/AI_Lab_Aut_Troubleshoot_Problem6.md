@@ -3,7 +3,7 @@
 icon: material/medal
 ---
 
-# Problem 4: Order Is Not Created Using Webex Connect 2
+# Problem 6: Confirm That Order Is Created and Agent Receives the Confirmation
 
 ## Problem overview
 
