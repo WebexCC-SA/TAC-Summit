@@ -50,7 +50,7 @@ For this mission, the proctor has created Webex AI Agent named **Flower_Wholesal
 3. Bring additional **VirtualAgentV2** node to the flow.
    ![Profiles](../graphics/Lab1_AI_Agent/14.8.gif)
 
-4. Connect **Wholesale** output from **Case** node to **VirtualAgentV2**. Connect **Handled** output from **VirtualAgentV2** to the **DisconnectContact** node. Connect **Escalate** output from **VirtualAgentV2** to Queue that is configured with **<w class="attendee"></w>\_2000_Voice_Queue**.
+4. Connect **Wholesale** output from **Case** node to **VirtualAgentV2**. Connect **Handled** output from **VirtualAgentV2** to the **DisconnectContact** node. Connect **Escalate** output from **VirtualAgentV2** to Queue that is configured with **TS_Voice_Queue**.
    ![Profiles](../graphics/Lab1_AI_Agent/14.9.gif)
 
 5. Click on the **VirtualAgentV2** and select **Webex AI Agent (Autonomous)** with name **Flower_WholeSale**.
