@@ -7,19 +7,17 @@ icon: material/medal
 
 ## Problem overview
 
-Your goal is to:
-
-**Investigate why the Autonomous AI Agent does not respond when you place a voice call.** Use the session logs to find the root cause. Do not change the configuration.
+The customer reported that inbound calls are failing as soon as the call reaches the Virtual Agent node. Reproducible all the time. Contact Session ID example of the failed call: **<copy>de302168-d657-4c1c-9cdf-8b159ab6291b</copy>**
 
 ---
 
 ## Troubleshooting Steps
 
 1. Sign in to [Webex Control Hub](https://admin.webex.com){:target="_blank"} using one of the lab accounts from the [Lab overview](AI_Lab_Aut_Troubleshoot_Overview.md).
-2. Dial **<copy>+19842990134</copy>** and reproduce the issue described by your instructor.
-3. From Control Hub, go to **Channels** and find the channel related to the number you called. Open it and from the channel configuration open the related **Flow**.
-4. From the flow, find which **AI agent** is configured and review the AI agent configuration.
-5. From the **Trace**, do you see any error? What could be the reason for the error?
+2. Find which **flow** is related to the number **<copy>+19842990134</copy>**.
+3. Open the flow and search by the **Contact Session ID** the customer provided. You can also try to reproduce the issue and investigate your own example.
+4. From the **Trace**, do you see any error? What could be the reason for the error?
+5. Find the related **AI Agent** and review the AI Agent configuration. Do you see any issue with misconfiguration or compatibility?
 
 **<details><summary>Hint <span style="color: orange;"></span></summary>**
 
@@ -30,4 +28,4 @@ Your goal is to:
 ## Quiz
 
 ??? challenge
-    <iframe src="https://app.sli.do/event/hBqxCdmXuduW2SRBEmCQyg/embed/polls/3f1ee4d2-bc7c-4d03-9ab7-60da6b4282fa" width="100%" height="400" frameborder="0"></iframe>
+    <iframe src="https://app.sli.do/event/qGiGp8xfC2HR2ghtMnh9HB/embed/polls/c65fc190-91f9-4cf0-8acb-812ec271a25b" width="100%" height="400" frameborder="0"></iframe>

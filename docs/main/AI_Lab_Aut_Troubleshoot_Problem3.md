@@ -7,21 +7,18 @@ icon: material/medal
 
 ## Problem overview
 
-Your goal is to:
-
-**Investigate why a customer order is not created when the caller completes the order flow with the Autonomous AI Agent.** Use the Webex AI Agent settings, Webex AI Agent Session logs and Webex Connect Logs to find the root cause. Do not change the configuration.
+We just created the new Action that should create a new order with our third party system. However, the AI agent responds that the order cannot be completed for some reason. Contact Session ID: **<copy>9cd6feb8-dc17-450b-b68c-2561705b3b3c</copy>**
 
 ---
 
 ## Troubleshooting Steps
 
-1. Dial **<copy>+19842990134</copy>** and place an order with the AI agent—for example, say, **This is for birthday party, I need 20 red roses no delivery.**
-2. From Control Hub, go to **Contact Center** > **Overview** and open **Webex AI Agent**.
-3. Open the AI agent configured for this problem and go to **Actions**.
-4. Locate the action used to **create a new order** and review how it is configured.
-5. Navigate to **Sessions**, locate the conversation from your test call, and review the session trace for the order creation attempt.
-6. Find the correlated call in the **Webex Connect** portal for the related Webex Connect flow and review the logs.
+1. Investigate the **Contact Session ID** in the voice flow. Do you see any problems?
+2. Investigate the **Contact Session ID** in the **Webex AI Agent** **Sessions**. Was the **Create_New_Order** action executed?
+3. Review the configuration of the **Create_New_Order** action. What kind of fulfillment is configured, and what flow is used in this action?
+4. Review the **Connect Flow** configuration.
 
 ## Quiz
 
 ??? challenge
+    <iframe src="https://app.sli.do/event/qDCfRaWTiechgKoHU42QsP/embed/polls/53f72481-48b2-406c-8f4e-dd7f3e3a3b32" width="100%" height="400" frameborder="0"></iframe>
