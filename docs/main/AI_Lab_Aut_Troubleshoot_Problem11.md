@@ -7,21 +7,16 @@ icon: material/medal
 
 ## Problem overview
 
-Your goal is to:
-
-**Investigate why shared context is not passed when the call is transferred to the Wholesale AI Agent.** Use the Webex AI Agent settings, session logs, and voice flow trace to find the root cause. Do not change the configuration.
+The customer is testing **Webex AI Agent** to **Webex AI Agent** transfer but complains that the second AI agent doesn't have the context that was already discussed between the caller and the first AI agent. This is a bad experience as the caller has to repeat themselves. Interaction ID **<copy>895966a3-b06c-48b4-9566-27dd49209ef9</copy>**.
 
 ---
 
 ## Troubleshooting Steps
 
-1. Dial **<copy>+19842990134</copy>** and ask to be transferred to the **Wholesale** department.
-2. From Control Hub, go to **Contact Center** > **Overview** and open **Webex AI Agent**.
-3. Open the AI agent configured for this problem and go to **Actions**.
-4. Locate the **transfer** action used for the Wholesale department and review how it is configured.
-5. Navigate to **Sessions**, locate the conversation from your test call, and review the session trace for the transfer attempt.
-6. Review the related **WxCC voice flow** trace and the **Wholesale AI Agent** session to identify why shared context was not available after the transfer.
+1. Investigate **AI Agent Session** logs for the provided interaction ID. Or place a test call to **<copy>+19842990134</copy>** and investigate your call.
+2. Investigate the logs in the **Voice Flow**.
 
 ## Quiz
 
 ??? challenge
+    <iframe src="https://app.sli.do/event/vAGJVH9TGfQGLExv4VYijU/embed/polls/d4907a09-dbf5-45f1-a5e6-f3e9b91775f0" width="100%" height="400" frameborder="0"></iframe>

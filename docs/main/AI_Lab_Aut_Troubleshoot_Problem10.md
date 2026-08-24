@@ -7,21 +7,22 @@ icon: material/medal
 
 ## Problem overview
 
-Your goal is to:
-
-**Investigate why a caller who requests a transfer to the HR queue is routed to the default queue instead.** Use the Webex AI Agent settings, session logs, and voice flow trace to find the root cause. Do not change the configuration.
+The customer complains that they configured an **AI Agent Transfer** action that is supposed to route the call to a specific department or to a specific AI Agent for further assistance. The problem is that during the transfer, the call is always routed to the **Default Queue**. Contact Session ID **<copy>895966a3-b06c-48b4-9566-27dd49209ef9</copy>**
 
 ---
 
 ## Troubleshooting Steps
 
-1. Dial **<copy>+19842990134</copy>** and ask to be transferred to the **HR** department.
-2. From Control Hub, go to **Contact Center** > **Overview** and open **Webex AI Agent**.
-3. Open the AI agent configured for this problem and go to **Actions**.
-4. Locate the **transfer** action and review how it is configured.
-5. Navigate to **Sessions**, locate the conversation from your test call, and review the session trace for the transfer attempt.
-6. Review the related **WxCC voice flow** trace and identify why the call was routed to the default queue instead of the HR queue.
+1. Investigate **AI Agent Session** logs for the provided interaction ID. Or place a test call to **<copy>+19842990134</copy>** and investigate your call.
+2. Investigate the logs in the **Voice Flow**.
+
+**<details><summary>Hint <span style="color: orange;"></span></summary>**
+
+You can use this if you need to check your JSON Path: [https://jsonpath.com/](https://jsonpath.com/){:target="_blank"}
+
+## </details>
 
 ## Quiz
 
 ??? challenge
+    <iframe src="https://app.sli.do/event/vomtgzFpu9usDw3TkLLV5j/embed/polls/100fd148-9fbd-46c2-a1e1-0f9ce662a4e6" width="100%" height="400" frameborder="0"></iframe>
