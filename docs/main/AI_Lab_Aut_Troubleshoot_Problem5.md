@@ -9,16 +9,15 @@ icon: material/medal
 
 After resolving Problem #4, you see the orders are creating properly on the third party application. However, the AI Agent is still responding that the order was not created properly.
 
-Interaction ID: **<copy>9cd6feb8-dc17-450b-b68c-2561705b3b3c</copy>**
+Interaction ID: **<copy>5c409ca5-0459-425f-8fe5-090bb242a02f</copy>**
 
 ---
 
 ## Troubleshooting Steps
 
-1. Review the **Connect Flow** configuration.
-2. From the **Webex AI Agent** session logs, find the **Transaction ID** related to the fulfillment. This will help you find the logs in the **Webex Connect** flow for this interaction.
-3. Review **Webex Connect** logs for this interaction. Is it still failing?
-4. What is the mechanism to return the data from the **Webex Connect** to **Webex AI Agent**?
+1. From the **Webex AI Agent** session logs, find the **Transaction ID** related to the fulfillment. This will help you find the logs in the **Webex Connect** flow for this interaction.
+2. Review **Webex Connect** logs for this interaction. Is it still failing?
+3. What is the mechanism to return the data from the **Webex Connect** to **Webex AI Agent**?
 
 ## Quiz
 

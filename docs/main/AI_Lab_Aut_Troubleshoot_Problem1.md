@@ -7,7 +7,7 @@ icon: material/medal
 
 ## Problem overview
 
-The customer reported that inbound calls are failing as soon as the call reaches the Virtual Agent node. Reproducible all the time. Contact Session ID example of the failed call: **<copy>de302168-d657-4c1c-9cdf-8b159ab6291b</copy>**
+The customer reported that inbound calls are failing as soon as the call reaches the Virtual Agent node. Reproducible all the time. Contact Session ID example of the failed call: **<copy>c64c4ad5-6606-4cb8-aa9c-46570bff89a2</copy>**
 
 ---
 
