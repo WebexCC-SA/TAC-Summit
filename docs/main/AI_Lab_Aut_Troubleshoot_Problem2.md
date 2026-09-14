@@ -7,7 +7,7 @@ icon: material/medal
 
 ## Problem overview
 
-We just created the new Action that should create a new order with our third party system. However, the AI agent responds that the order cannot be completed for some reason. Contact Session ID: **<copy>94764f8a-a146-4572-abbb-e542030b2f82</copy>**
+We just created the new Action that should create a new order with our third party system. However, the AI agent responds that the order cannot be completed for some reason. Contact Session ID: **<copy>e7b000c9-780f-4619-91c5-51ee1dbecb19</copy>**
 
 ---
 
@@ -17,6 +17,12 @@ We just created the new Action that should create a new order with our third par
 2. Investigate the **Contact Session ID** in the **Webex AI Agent** **Sessions**. Was the **Create_New_Order** action executed?
 3. Review the configuration of the **Create_New_Order** action. What kind of fulfillment is configured, and what flow is used in this action?
 4. Review the **Connect Flow** configuration.
+
+**<details><summary>Hint <span style="color: orange;"></span></summary>**
+
+In the **AI Agent Session Details** report, check what **Webex Connect Flow** is configured for the fulfillment and how the flow is configured.
+
+## </details>
 
 ## Quiz
 
