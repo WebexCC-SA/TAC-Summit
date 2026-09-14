@@ -3,20 +3,26 @@
 icon: material/medal
 ---
 
-# Problem 9: Order Is Not Created Using Voice Flow 3
+# Problem 9: Transfer Call to HR Queue Landed on the Default Queue
 
 ## Problem overview
 
-After correcting the additional flow misconfiguration, the customer kept testing and reports that the order is created but the AI Agent cannot provide the order ID. Contact Session ID **<copy>742060ff-412a-4e2c-8092-cfd3a41207a5</copy>**. Reproducible.
+The customer complains that they configured an **AI Agent Transfer** action that is supposed to route the call to a specific department or to a specific AI Agent for further assistance. The problem is that during the transfer, the call is always routed to the **Default Queue**. Contact Session ID **<copy>895966a3-b06c-48b4-9566-27dd49209ef9</copy>**
 
 ---
 
 ## Troubleshooting Steps
 
-1. Investigate **AI Agent Session** logs for the provided interaction ID. Or place a test call and investigate your call.
+1. Investigate **AI Agent Session** logs for the provided interaction ID. Or place a test call to **<copy>+14085382316</copy>** and investigate your call.
 2. Investigate the logs in the **Voice Flow**.
+
+**<details><summary>Hint <span style="color: orange;"></span></summary>**
+
+You can use this if you need to check your JSON Path: [https://jsonpath.com/](https://jsonpath.com/){:target="_blank"}
+
+## </details>
 
 ## Quiz
 
 ??? challenge
-    <iframe src="https://app.sli.do/event/bJAvwVKQMPbVL1C2rHrybk/embed/polls/d2eb52a9-36e2-4223-94d5-06af3e694d3c" width="100%" height="400" frameborder="0"></iframe>
+    <iframe src="https://app.sli.do/event/vomtgzFpu9usDw3TkLLV5j/embed/polls/100fd148-9fbd-46c2-a1e1-0f9ce662a4e6" width="100%" height="400" frameborder="0"></iframe>

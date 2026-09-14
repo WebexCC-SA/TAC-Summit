@@ -3,11 +3,11 @@
 icon: material/medal
 ---
 
-# Problem 8: Order Is Not Created Using Voice Flow 2
+# Problem 8: Order Is Not Created Using Voice Flow 3
 
 ## Problem overview
 
-The customer adjusted the first problem in the voice flow and, by testing further, noticed that the agent is trying to make an order and then it feels like the AI agent starts the conversation from the beginning. The issue is reproducible by calling **<copy>+14085382316</copy>**. Contact Session ID: **<copy>9e0e7337-9f17-4f63-9f76-ff234344da71</copy>**
+After correcting the additional flow misconfiguration, the customer kept testing and reports that the order is created but the AI Agent cannot provide the order ID. Contact Session ID **<copy>742060ff-412a-4e2c-8092-cfd3a41207a5</copy>**. Reproducible.
 
 ---
 
@@ -19,4 +19,4 @@ The customer adjusted the first problem in the voice flow and, by testing furthe
 ## Quiz
 
 ??? challenge
-    <iframe src="https://app.sli.do/event/b6CgoYw67HxhcNNm4Na14K/embed/polls/2d1f78d5-9783-402f-b0e0-565d01b43d24" width="100%" height="400" frameborder="0"></iframe>
+    <iframe src="https://app.sli.do/event/bJAvwVKQMPbVL1C2rHrybk/embed/polls/d2eb52a9-36e2-4223-94d5-06af3e694d3c" width="100%" height="400" frameborder="0"></iframe>

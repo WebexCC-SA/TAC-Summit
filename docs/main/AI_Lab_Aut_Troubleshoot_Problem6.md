@@ -3,20 +3,20 @@
 icon: material/medal
 ---
 
-# Problem 6: Confirm That Order Is Created and Agent Receives the Confirmation
+# Problem 6: Order Is Not Created Using Voice Flow
 
 ## Problem overview
 
-The customer confirmed that the AI agent is working properly now. However, you decide to do a quick double check by checking logs for the latest successful call **<copy>9cd6feb8-dc17-450b-b68c-2561705b3b3c</copy>**
+The customer decided to use fulfillment over the voice flow instead of the Webex Connect flow. While calling the AI agent and making an order, the call is disconnecting. The customer shared the Contact Session ID **<copy>89192bd3-cc44-4af7-9bf7-4bdcaf54a056</copy>**
 
 ---
 
 ## Troubleshooting Steps
 
-1. Review the call logs in **AI Agent Session Logs**. Do you see the order ID?
-2. Confirm that the same order was created in **Webex Connect**.
+1. Investigate the **Contact Session ID** in the **AI Agent Session** logs.
+2. Investigate the **Contact Session ID** in the **Voice Flow**.
 
 ## Quiz
 
 ??? challenge
-    <iframe src="https://app.sli.do/event/9VSyvxgkHZBQUvykiLPQH8/embed/polls/b38e66e3-7f97-42d4-95e6-0a77f5454be9" width="100%" height="400" frameborder="0"></iframe>
+    <iframe src="https://app.sli.do/event/vs7Y7FiLVFEKLsUCegc83i/embed/polls/17d1fa9a-bd95-4be3-9efa-8f0915ab703c" width="100%" height="400" frameborder="0"></iframe>

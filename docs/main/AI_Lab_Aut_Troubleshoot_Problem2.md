@@ -3,20 +3,22 @@
 icon: material/medal
 ---
 
-# Problem 2: No Response from the Knowledge Base
+# Problem 2: Order Is Not Created Using Webex Connect
 
 ## Problem overview
 
-Please help us to investigate why the Autonomous AI Agent does not answer questions that should come from the knowledge base. Reproducible by calling **<copy>+14085382316</copy>**.
+We just created the new Action that should create a new order with our third party system. However, the AI agent responds that the order cannot be completed for some reason. Contact Session ID: **<copy>94764f8a-a146-4572-abbb-e542030b2f82</copy>**
 
 ---
 
 ## Troubleshooting Steps
 
-1. Find the **AI Agent** that is related to the number **<copy>+14085382316</copy>**.
-2. Review the configurations.
+1. Investigate the **Contact Session ID** in the voice flow. Do you see any problems?
+2. Investigate the **Contact Session ID** in the **Webex AI Agent** **Sessions**. Was the **Create_New_Order** action executed?
+3. Review the configuration of the **Create_New_Order** action. What kind of fulfillment is configured, and what flow is used in this action?
+4. Review the **Connect Flow** configuration.
 
 ## Quiz
 
 ??? challenge
-    <iframe src="https://app.sli.do/event/kWiFfcdMioHdyb3mKBqKtQ/embed/polls/a8a64d73-716c-440d-a3ca-072abcd61d93" width="100%" height="400" frameborder="0"></iframe>
+    <iframe src="https://app.sli.do/event/qDCfRaWTiechgKoHU42QsP/embed/polls/53f72481-48b2-406c-8f4e-dd7f3e3a3b32" width="100%" height="400" frameborder="0"></iframe>
