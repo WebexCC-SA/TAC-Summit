@@ -7,13 +7,13 @@ icon: material/medal
 
 ## Problem overview
 
-Please help us to investigate why the Autonomous AI Agent does not answer questions that should come from the knowledge base. Reproducible by calling **<copy>+19842990134</copy>**.
+Please help us to investigate why the Autonomous AI Agent does not answer questions that should come from the knowledge base. Reproducible by calling **<copy>+14085382316</copy>**.
 
 ---
 
 ## Troubleshooting Steps
 
-1. Find the **AI Agent** that is related to the number **<copy>+19842990134</copy>**.
+1. Find the **AI Agent** that is related to the number **<copy>+14085382316</copy>**.
 2. Review the configurations.
 
 ## Quiz

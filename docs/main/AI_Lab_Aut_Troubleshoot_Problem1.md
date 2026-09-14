@@ -7,14 +7,14 @@ icon: material/medal
 
 ## Problem overview
 
-The customer reported that inbound calls are failing as soon as the call reaches the Virtual Agent node. Reproducible all the time. Contact Session ID example of the failed call: **<copy>c64c4ad5-6606-4cb8-aa9c-46570bff89a2</copy>**
+The customer reported that inbound calls are failing as soon as the call reaches the Virtual Agent node. Reproducible all the time. Contact Session ID example of the failed call: **<copy>584c8b7e-12b7-4879-8fb6-3dddb7b42ce1</copy>**
 
 ---
 
 ## Troubleshooting Steps
 
 1. Sign in to [Webex Control Hub](https://admin.webex.com){:target="_blank"} using one of the lab accounts from the [Lab overview](AI_Lab_Aut_Troubleshoot_Overview.md).
-2. Find which **flow** is related to the number **<copy>+19842990134</copy>**.
+2. Find which **flow** is related to the number **<copy>+14085382316</copy>**.
 3. Open the flow and search by the **Contact Session ID** the customer provided. You can also try to reproduce the issue and investigate your own example.
 4. From the **Trace**, do you see any error? What could be the reason for the error?
 5. Find the related **AI Agent** and review the AI Agent configuration. Do you see any issue with misconfiguration or compatibility?

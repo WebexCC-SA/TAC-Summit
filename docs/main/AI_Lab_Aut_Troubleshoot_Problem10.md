@@ -13,7 +13,7 @@ The customer complains that they configured an **AI Agent Transfer** action that
 
 ## Troubleshooting Steps
 
-1. Investigate **AI Agent Session** logs for the provided interaction ID. Or place a test call to **<copy>+19842990134</copy>** and investigate your call.
+1. Investigate **AI Agent Session** logs for the provided interaction ID. Or place a test call to **<copy>+14085382316</copy>** and investigate your call.
 2. Investigate the logs in the **Voice Flow**.
 
 **<details><summary>Hint <span style="color: orange;"></span></summary>**

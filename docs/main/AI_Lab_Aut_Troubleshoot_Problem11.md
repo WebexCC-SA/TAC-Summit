@@ -13,7 +13,7 @@ The customer is testing **Webex AI Agent** to **Webex AI Agent** transfer but co
 
 ## Troubleshooting Steps
 
-1. Investigate **AI Agent Session** logs for the provided interaction ID. Or place a test call to **<copy>+19842990134</copy>** and investigate your call.
+1. Investigate **AI Agent Session** logs for the provided interaction ID. Or place a test call to **<copy>+14085382316</copy>** and investigate your call.
 2. Investigate the logs in the **Voice Flow**.
 
 ## Quiz
