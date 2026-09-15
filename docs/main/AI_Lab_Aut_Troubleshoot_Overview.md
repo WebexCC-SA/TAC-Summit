@@ -23,11 +23,7 @@ Select any one account from the list below:
 | **<copy>user6@ccts2026.wbx.ai</copy>** | **<copy>qmK0VShBr#</copy>** |
 | **<copy>user7@ccts2026.wbx.ai</copy>** | **<copy>qmK0VShBr#</copy>** |
 
-### DN to call to reproduce the issue
-
-**<copy>+14085382316</copy>**
-
-Sign in to [Webex Control Hub](https://admin.webex.com){:target="_blank"} using one of the lab accounts from the list above.
+Sign in to [Collaboration Control Hub](https://admin.webex.com){:target="_blank"} using one of the lab accounts from the list above.
 
 ## Login Confirmation check
 
