@@ -7,14 +7,20 @@ icon: material/medal
 
 ## Problem overview
 
-The customer is testing **Webex AI Agent** to **Webex AI Agent** transfer but complains that the second AI agent doesn't have the context that was already discussed between the caller and the first AI agent. This is a bad experience as the caller has to repeat themselves. Interaction ID **<copy>895966a3-b06c-48b4-9566-27dd49209ef9</copy>**.
+The customer is testing **Webex AI Agent** to **Webex AI Agent** transfer but complains that the second AI agent doesn't have the context that was already discussed between the caller and the first AI agent. This is a bad experience as the caller has to repeat themselves. Interaction ID **<copy>51b2459e-05b7-40d6-b117-14a372e5d1a0</copy>**.
 
 ---
 
 ## Troubleshooting Steps
 
-1. Investigate **AI Agent Session** logs for the provided interaction ID. Or place a test call to **<copy>+14085382316</copy>** and investigate your call.
-2. Investigate the logs in the **Voice Flow**.
+1. Investigate the **AI Agent Session** logs for Webex AI Agents **<copy>180_2000_AutoAI_Lab</copy>** and **Flower_Wholesale**.
+2. Investigate the **Voice Flow** design to understand why the context was not sent from one AI agent to another AI agent.
+
+**<details><summary>Hint <span style="color: orange;"></span></summary>**
+
+[Multi-agent orchestration](https://help.webex.com/en-us/article/5a07xcb/Multi-agent-orchestration){:target="_blank"}
+
+## </details>
 
 ## Quiz
 

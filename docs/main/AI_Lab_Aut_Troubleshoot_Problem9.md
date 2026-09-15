@@ -7,7 +7,7 @@ icon: material/medal
 
 ## Problem overview
 
-The customer complains that they configured an **AI Agent Transfer** action that is supposed to route the call to a specific department or to a specific AI Agent for further assistance. The problem is that during the transfer, the call is always routed to the **Default Queue**. Contact Session ID **<copy>895966a3-b06c-48b4-9566-27dd49209ef9</copy>**
+The customer complains that they configured an **AI Agent Transfer** action that is supposed to route the call to a specific department or to a specific AI Agent for further assistance. The problem is that during the transfer, the call is always routed to the **Default Queue**. Contact Session ID **<copy>7a3664d4-00f2-4ccc-a03f-bceffac8d48c</copy>**
 
 ---
 
