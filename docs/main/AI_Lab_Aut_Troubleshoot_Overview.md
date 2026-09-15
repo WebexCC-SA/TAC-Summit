@@ -25,3 +25,8 @@ Select any one account from the list below:
 ### DN to call to reproduce the issue
 
 **<copy>+14085382316</copy>**
+
+## Quiz
+
+??? challenge
+    <iframe src="https://app.sli.do/event/nLZSx7zgVaK7JhFv4NhTij/embed/polls/5e9df0b3-9ea9-4473-9d48-639ae50c87a6" width="100%" height="400" frameborder="0"></iframe>
