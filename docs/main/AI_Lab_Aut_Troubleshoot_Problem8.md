@@ -7,7 +7,7 @@ icon: material/medal
 
 ## Problem overview
 
-After correcting the additional flow misconfiguration, the customer kept testing and reports that the order is created but the AI Agent cannot provide the order ID. Contact Session ID **<copy>742060ff-412a-4e2c-8092-cfd3a41207a5</copy>**. Reproducible.
+After correcting the additional flow misconfiguration, the customer kept testing and reports that the order is created but the AI Agent cannot provide the order ID. Contact Session ID **<copy>143dc709-1965-400d-8d0e-849d0692a007</copy>**. Reproducible.
 
 ---
 
@@ -15,6 +15,13 @@ After correcting the additional flow misconfiguration, the customer kept testing
 
 1. Investigate **AI Agent Session** logs for the provided interaction ID. Or place a test call and investigate your call.
 2. Investigate the logs in the **Voice Flow**.
+3. Check the **Voice Flow** design for the **AI Agent Fulfillment**.
+
+**<details><summary>Hint <span style="color: orange;"></span></summary>**
+
+[Configure custom data and custom events for AI agents](https://help.webex.com/en-us/article/n5uo60x/Configure-custom-data-and-custom-events-for-AI-agents){:target="_blank"}
+
+## </details>
 
 ## Quiz
 
