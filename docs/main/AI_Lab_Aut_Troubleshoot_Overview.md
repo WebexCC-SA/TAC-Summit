@@ -27,6 +27,8 @@ Select any one account from the list below:
 
 **<copy>+14085382316</copy>**
 
+Sign in to [Webex Control Hub](https://admin.webex.com){:target="_blank"} using one of the lab accounts from the list above.
+
 ## Login Confirmation check
 
 ??? challenge
