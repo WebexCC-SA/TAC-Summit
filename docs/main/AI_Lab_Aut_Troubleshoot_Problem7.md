@@ -7,13 +7,13 @@ icon: material/medal
 
 ## Problem overview
 
-The customer adjusted the first problem in the voice flow and, by testing further, noticed that the agent is trying to make an order and then it feels like the AI agent starts the conversation from the beginning. The issue is reproducible by calling **<copy>+14085382316</copy>**. Contact Session ID: **<copy>9e0e7337-9f17-4f63-9f76-ff234344da71</copy>**
+The customer adjusted the first problem in the voice flow and, by testing further, noticed that the agent is trying to make an order and then it feels like the AI agent starts the conversation from the beginning. The issue is reproducible every time. Contact Session ID: **<copy>9e0e7337-9f17-4f63-9f76-ff234344da71</copy>**
 
 ---
 
 ## Troubleshooting Steps
 
-1. Investigate **AI Agent Session** logs for the provided interaction ID. Or place a test call and investigate your call.
+1. Investigate **AI Agent Session** logs for the provided interaction ID.
 2. Investigate the logs in the **Voice Flow**.
 
 ## Quiz

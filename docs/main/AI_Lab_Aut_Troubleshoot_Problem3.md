@@ -9,9 +9,9 @@ icon: material/medal
 
 After you resolve Problem #2, the customer responded:
 
-It is still not working! Sometimes the AI Agent says that the order is completed but the order is never created on the third party application. Could you please check what is the problem?
+It is still not working! The AI Agent responds that your order is not completed. Could you please check what is the problem?
 
-Interaction ID: **<copy>9ba33f37-1f03-4231-850f-973ce02a0dec</copy>**
+Interaction ID: **<copy>ebb5e726-219f-4650-845c-b1d2e893f61c</copy>**
 
 I can create a test order using Postman with the following:
 
