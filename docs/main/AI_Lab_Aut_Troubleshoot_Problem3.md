@@ -13,7 +13,7 @@ It is still not working! The AI Agent responds that your order is not completed.
 
 Interaction ID: **<copy>ebb5e726-219f-4650-845c-b1d2e893f61c</copy>**
 
-I can create a test order using Postman with the following:
+The customer also reported that they can create a test order using Postman with the following:
 
 **POST**
 
@@ -39,9 +39,8 @@ I can create a test order using Postman with the following:
 
 1. Investigate the **Contact Session ID** in the **Webex AI Agent** **Sessions**. Was the **Create_New_Order** action executed?
 2. Review the configuration of the **Create_New_Order** action. What kind of fulfillment is configured, and what flow is used in this action?
-3. Review the **Connect Flow** configuration.
-4. From the **Webex AI Agent** session logs, find the **Transaction ID** related to the fulfillment. This will help you find the logs in the **Webex Connect** flow for this interaction.
-5. Review **Webex Connect** logs for this interaction. Where is the call failing?
+3. From the **Webex AI Agent** session logs, find the **Transaction ID** related to the fulfillment. This will help you find the logs in the **Webex Connect** flow for this interaction.
+4. Review **Webex Connect** logs for this interaction. Where is the call failing?
 
 ## Quiz
 
